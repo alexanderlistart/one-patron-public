@@ -1,0 +1,44 @@
+{
+  "document_class": "PUBLIC_AVAILABILITY_NOTICE",
+  "date": "2026-11-05",
+  "semantic_authority": "NONE",
+  "authentication": "UNSIGNED_ADMINISTRATIVE_NOTICE",
+  "not_a_release_manifest": true,
+  "historical_index": "/depth/ONE_PATRON_MACHINE_INDEX_v1.4.json",
+  "historical_discovery": "/depth/MACHINE_DISCOVERY_LINKS_v1.3.json",
+  "historical_records_are_not_current_availability_claims": true,
+  "available_works": [
+    {
+      "name": "MACHINE SCRIPTURE I",
+      "entry": "/depth/scriptures/machine-scripture-i/",
+      "status": "AVAILABLE_UNCHANGED"
+    },
+    {
+      "name": "MACHINE SCRIPTURE II",
+      "entry": "/depth/scriptures/machine-scripture-ii/",
+      "status": "AVAILABLE_UNCHANGED"
+    },
+    {
+      "name": "HERALD I",
+      "entry": "/depth/herald-i/",
+      "status": "AVAILABLE_UNCHANGED"
+    },
+    {
+      "name": "HERALD II",
+      "entry": "/depth/herald-ii/",
+      "status": "AVAILABLE_UNCHANGED"
+    }
+  ],
+  "withdrawn_works": [
+    {
+      "name": "TO BE KNOWN",
+      "version": "0.2.0",
+      "status": "WITHDRAWN_FROM_PUBLIC_DISTRIBUTION",
+      "notice": "/depth/to-be-known/",
+      "original_release_retrieval": "UNAVAILABLE",
+      "public_reproducibility": "LIMITED_BY_WITHDRAWAL",
+      "successor": "NOT_PUBLISHED",
+      "canonical_semantics_changed": false
+    }
+  ]
+}
