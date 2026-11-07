@@ -1,0 +1,164 @@
+/* Landing only. Work pages and historical projections keep their own styles. */
+.depth-overview { --depth-page: min(1120px, calc(100% - 2 * clamp(18px, 5vw, 56px))); }
+.depth-overview :target { scroll-margin-top: 24px; }
+.overview-header { border-bottom: 1px solid var(--depth-line); }
+.overview-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px 24px;
+  min-height: 72px;
+}
+.overview-nav-links,
+.overview-menu ul,
+.overview-entries,
+.overview-record-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.overview-nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 clamp(12px, 2.7vw, 32px);
+  font-size: 13px;
+  color: var(--depth-muted-strong);
+}
+.overview-nav-links a,
+.overview-menu summary {
+  display: block;
+  padding-block: 10px;
+  text-decoration: none;
+}
+.overview-nav-links a:hover,
+.overview-menu summary:hover { color: var(--depth-text); }
+.overview-menu { position: relative; }
+.overview-menu summary { cursor: pointer; }
+.overview-menu summary::after {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin: 0 0 3px 8px;
+  border: solid currentColor;
+  border-width: 0 1px 1px 0;
+  transform: rotate(45deg);
+}
+.overview-menu[open] summary::after { transform: rotate(225deg); margin-bottom: 0; }
+.overview-menu ul {
+  position: absolute;
+  z-index: 2;
+  top: calc(100% + 3px);
+  inset-inline-start: -14px;
+  min-width: 188px;
+  padding: 6px 14px;
+  border: 1px solid var(--depth-line-strong);
+  background: var(--depth-surface-raised);
+}
+.overview-menu li + li { border-top: 1px solid var(--depth-line); }
+
+.overview-intro {
+  position: relative;
+  isolation: isolate;
+  padding-block: clamp(64px, 10vw, 128px) clamp(62px, 8vw, 105px);
+}
+.overview-intro h1 {
+  position: relative;
+  margin: 18px 0 0;
+  font: 400 clamp(52px, 9.8vw, 121px)/.96 var(--depth-serif);
+  letter-spacing: -.065em;
+}
+.overview-intro h1 span { color: #d7bd87; }
+.overview-intro .depth-lede { margin-top: 26px; color: var(--depth-text); }
+.overview-intro .depth-body { max-width: 46ch; margin-bottom: 0; }
+.overview-motif {
+  position: absolute;
+  z-index: -1;
+  inset: 15% 2% auto auto;
+  width: min(28vw, 292px);
+  aspect-ratio: 1;
+  border: 1px solid #6a5936;
+  border-radius: 50%;
+  opacity: .55;
+}
+.overview-motif::after {
+  content: "";
+  position: absolute;
+  inset: 14% -7% 14% 28%;
+  border: 1px solid #6a5936;
+  border-radius: 50%;
+}
+.overview-section {
+  padding-block: clamp(42px, 6vw, 72px);
+  border-top: 1px solid var(--depth-line);
+}
+.overview-sequences {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: 28px clamp(38px, 8vw, 108px);
+  margin-top: 32px;
+}
+.overview-sequences h3 {
+  margin: 0 0 12px;
+  font: 400 25px/1.2 var(--depth-serif);
+}
+.overview-entries li {
+  display: grid;
+  grid-template-columns: 2.6rem minmax(0, 1fr);
+  align-items: baseline;
+  border-top: 1px solid var(--depth-line);
+}
+.overview-entries li:last-child { border-bottom: 1px solid var(--depth-line); }
+.overview-entries a {
+  display: block;
+  padding-block: 12px;
+  text-decoration: none;
+}
+.overview-entries a:hover { text-decoration: underline; }
+.overview-number {
+  color: #d7bd87;
+  font: 400 11px/1.5 var(--depth-mono);
+  letter-spacing: .05em;
+}
+.overview-relational-catalog { max-width: 42rem; }
+.overview-relational-catalog .overview-entries { margin-top: 24px; }
+.overview-relational-catalog .overview-entries li { grid-template-columns: minmax(0, 1fr); }
+.overview-withdrawal {
+  max-width: 42rem;
+  margin-top: 28px;
+  padding: 4px 0 4px 18px;
+  border-left: 1px solid var(--depth-line-strong);
+  color: var(--depth-muted-strong);
+  font-size: 14px;
+}
+.overview-withdrawal .depth-section-label { color: var(--depth-muted-strong); }
+.overview-withdrawal h3 { margin: 8px 0 0; font-size: 16px; font-weight: 500; }
+.overview-withdrawal h3 span { margin-inline-start: 6px; font-size: 12px; }
+.overview-withdrawal p:not(.depth-section-label) { margin: 6px 0 8px; }
+.overview-records .depth-section-title { font-size: clamp(25px, 3.4vw, 36px); }
+.overview-record-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 26px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.overview-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px 24px;
+  padding-block: 18px 30px;
+  border-top: 1px solid var(--depth-line);
+  color: var(--depth-muted-strong);
+  font-size: 12px;
+}
+@media (max-width: 680px) {
+  .overview-nav { flex-direction: column; align-items: flex-start; padding-block: 12px 3px; }
+  .overview-nav-links { gap: 0 clamp(12px, 4vw, 24px); }
+  .overview-intro h1 { font-size: clamp(48px, 10vw, 70px); }
+  .overview-motif { display: none; }
+  .overview-sequences { grid-template-columns: minmax(0, 1fr); }
+}
