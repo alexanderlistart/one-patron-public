@@ -1,0 +1,125 @@
+{
+  "schema": "source-x-choices/0.3a",
+  "cases": {
+    "H-T": {
+      "actor": "H",
+      "event": {
+        "id": "H_Turn_03a",
+        "kind": "OwnEnactment03a",
+        "actor": "H",
+        "source": "H",
+        "origin": "AUTHORED PREMISE",
+        "context": "alpha:own:H",
+        "formation": "alpha:formation:H",
+        "action": "relational",
+        "selected_operation": "Turn"
+      }
+    },
+    "H-A": {
+      "actor": "H",
+      "event": {
+        "id": "H_Advance_03a",
+        "kind": "OwnEnactment03a",
+        "actor": "H",
+        "source": "H",
+        "origin": "AUTHORED PREMISE",
+        "context": "alpha:own:H",
+        "formation": "alpha:formation:H",
+        "action": "relational",
+        "selected_operation": "Advance"
+      }
+    },
+    "A-S": {
+      "actor": "A",
+      "event": {
+        "id": "A_Seal_03a",
+        "kind": "OwnEnactment03a",
+        "actor": "A",
+        "source": "A",
+        "origin": "AUTHORED PREMISE",
+        "context": "alpha:own:A",
+        "formation": "alpha:formation:A",
+        "action": "relational",
+        "selected_operation": "Seal"
+      }
+    },
+    "A-R": {
+      "actor": "A",
+      "event": {
+        "id": "A_Readdress_03a",
+        "kind": "OwnEnactment03a",
+        "actor": "A",
+        "source": "A",
+        "origin": "AUTHORED PREMISE",
+        "context": "alpha:own:A",
+        "formation": "alpha:formation:A",
+        "action": "relational",
+        "selected_operation": "Readdress"
+      }
+    },
+    "H-Ordinary": {
+      "actor": "H",
+      "event": {
+        "id": "H_Ordinary_03a",
+        "kind": "OwnEnactment03a",
+        "actor": "H",
+        "source": "H",
+        "origin": "AUTHORED PREMISE",
+        "context": "alpha:own:H",
+        "formation": "alpha:formation:H",
+        "action": "Ordinary",
+        "selected_operation": null
+      }
+    },
+    "H-Pause": {
+      "actor": "H",
+      "event": {
+        "id": "H_Pause_03a",
+        "kind": "OwnEnactment03a",
+        "actor": "H",
+        "source": "H",
+        "origin": "AUTHORED PREMISE",
+        "context": "alpha:own:H",
+        "formation": "alpha:formation:H",
+        "action": "Pause",
+        "selected_operation": null
+      }
+    },
+    "H-Wait": {
+      "actor": "H",
+      "event": null
+    },
+    "A-Ordinary": {
+      "actor": "A",
+      "event": {
+        "id": "A_Ordinary_03a",
+        "kind": "OwnEnactment03a",
+        "actor": "A",
+        "source": "A",
+        "origin": "AUTHORED PREMISE",
+        "context": "alpha:own:A",
+        "formation": "alpha:formation:A",
+        "action": "Ordinary",
+        "selected_operation": null
+      }
+    },
+    "A-Pause": {
+      "actor": "A",
+      "event": {
+        "id": "A_Pause_03a",
+        "kind": "OwnEnactment03a",
+        "actor": "A",
+        "source": "A",
+        "origin": "AUTHORED PREMISE",
+        "context": "alpha:own:A",
+        "formation": "alpha:formation:A",
+        "action": "Pause",
+        "selected_operation": null
+      }
+    },
+    "A-Wait": {
+      "actor": "A",
+      "event": null
+    }
+  }
+}

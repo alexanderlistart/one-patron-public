@@ -1,0 +1,36 @@
+{
+  "schema": "source-x-object-laws/1",
+  "E0": {
+    "parent": null,
+    "constructors": {
+      "ALocal": {
+        "result": "AForm",
+        "rule": "A_SOURCE"
+      },
+      "HLocal": {
+        "result": "HForm",
+        "rule": "H_SOURCE"
+      },
+      "GlobalJoin": {
+        "result": "JointGlobal",
+        "rule": "FIXED_POINT"
+      }
+    },
+    "operations": []
+  },
+  "E1": {
+    "parent": "E0",
+    "constructors": {
+      "CyclicContinuation": {
+        "result": "CyclicContinuation",
+        "rule": "ORDER3_NOFIX_SOURCE_INSTALL"
+      }
+    },
+    "operations": [
+      "Path",
+      "Compose",
+      "Reverse",
+      "Return"
+    ]
+  }
+}

@@ -1,0 +1,712 @@
+{
+  "schema": "source-x-continuing-authored/2",
+  "cases": {
+    "transformed": {
+      "event": {
+        "id": "H_after_transformed",
+        "kind": "HServiceAfterE1",
+        "source": "H",
+        "origin": "AUTHORED PREMISE",
+        "parents": [
+          "h1",
+          "C0",
+          "H1:E1:operations-completed"
+        ],
+        "payload": {
+          "covenant_ref": "C0",
+          "trace": [
+            1,
+            0,
+            2
+          ],
+          "before": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "after": [
+            0,
+            1,
+            2
+          ],
+          "map": [
+            1,
+            0,
+            2,
+            1,
+            0,
+            2
+          ],
+          "Lost": [
+            "private-H-next"
+          ]
+        }
+      },
+      "bridge": {
+        "from": "Psi/1",
+        "to": "Psi/2",
+        "source_event_ref": "H_after_transformed",
+        "vertices": [
+          0,
+          1,
+          2
+        ],
+        "paths": {
+          "0-1": [
+            [
+              0,
+              1
+            ]
+          ],
+          "1-2": [
+            [
+              1,
+              2
+            ]
+          ],
+          "2-0": [
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        "phi": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "allow_transport_change": true
+      }
+    },
+    "preserved": {
+      "event": {
+        "id": "H_after_preserved",
+        "kind": "HServiceAfterE1",
+        "source": "H",
+        "origin": "AUTHORED PREMISE",
+        "parents": [
+          "h1",
+          "C0",
+          "H1:E1:operations-completed"
+        ],
+        "payload": {
+          "covenant_ref": "C0",
+          "trace": [
+            0,
+            2,
+            1
+          ],
+          "before": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "after": [
+            0,
+            1,
+            2
+          ],
+          "map": [
+            0,
+            2,
+            1,
+            0,
+            2,
+            1
+          ],
+          "Lost": [
+            "private-H-next"
+          ]
+        }
+      },
+      "bridge": {
+        "from": "Psi/1",
+        "to": "Psi/2",
+        "source_event_ref": "H_after_preserved",
+        "vertices": [
+          0,
+          1,
+          2
+        ],
+        "paths": {
+          "0-1": [
+            [
+              0,
+              1
+            ]
+          ],
+          "1-2": [
+            [
+              1,
+              2
+            ]
+          ],
+          "2-0": [
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        "phi": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "allow_transport_change": true
+      }
+    },
+    "no_bridge": {
+      "event": {
+        "id": "H_after_no_bridge",
+        "kind": "HServiceAfterE1",
+        "source": "H",
+        "origin": "AUTHORED PREMISE",
+        "parents": [
+          "h1",
+          "C0",
+          "H1:E1:operations-completed"
+        ],
+        "payload": {
+          "covenant_ref": "C0",
+          "trace": [
+            0,
+            2,
+            1
+          ],
+          "before": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "after": [
+            0,
+            1,
+            2
+          ],
+          "map": [
+            0,
+            2,
+            1,
+            0,
+            2,
+            1
+          ],
+          "Lost": [
+            "private-H-next"
+          ]
+        }
+      },
+      "bridge": null
+    },
+    "unknown": {
+      "event": {
+        "id": "H_after_unknown",
+        "kind": "HServiceAfterE1",
+        "source": "H",
+        "origin": "UNRESOLVED",
+        "parents": [
+          "h1",
+          "C0",
+          "H1:E1:operations-completed"
+        ],
+        "payload": {
+          "covenant_ref": "C0",
+          "trace": [
+            1,
+            0,
+            2
+          ],
+          "before": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "after": [
+            0,
+            1,
+            2
+          ],
+          "map": [
+            1,
+            0,
+            2,
+            1,
+            0,
+            2
+          ],
+          "Lost": [
+            "private-H-next"
+          ]
+        }
+      },
+      "bridge": {
+        "from": "Psi/1",
+        "to": "Psi/2",
+        "source_event_ref": "H_after_unknown",
+        "vertices": [
+          0,
+          1,
+          2
+        ],
+        "paths": {
+          "0-1": [
+            [
+              0,
+              1
+            ]
+          ],
+          "1-2": [
+            [
+              1,
+              2
+            ]
+          ],
+          "2-0": [
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        "phi": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "allow_transport_change": true
+      }
+    },
+    "forged": {
+      "event": {
+        "id": "H_after_forged",
+        "kind": "HServiceAfterE1",
+        "source": "A",
+        "origin": "AUTHORED PREMISE",
+        "parents": [
+          "h1",
+          "C0",
+          "H1:E1:operations-completed"
+        ],
+        "payload": {
+          "covenant_ref": "C0",
+          "trace": [
+            1,
+            0,
+            2
+          ],
+          "before": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "after": [
+            0,
+            1,
+            2
+          ],
+          "map": [
+            1,
+            0,
+            2,
+            1,
+            0,
+            2
+          ],
+          "Lost": [
+            "private-H-next"
+          ]
+        }
+      },
+      "bridge": {
+        "from": "Psi/1",
+        "to": "Psi/2",
+        "source_event_ref": "H_after_forged",
+        "vertices": [
+          0,
+          1,
+          2
+        ],
+        "paths": {
+          "0-1": [
+            [
+              0,
+              1
+            ]
+          ],
+          "1-2": [
+            [
+              1,
+              2
+            ]
+          ],
+          "2-0": [
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        "phi": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "allow_transport_change": true
+      }
+    },
+    "pause": {
+      "event": {
+        "id": "H_after_pause",
+        "kind": "HRevisionOrPause",
+        "source": "H",
+        "origin": "AUTHORED PREMISE",
+        "parents": [
+          "h1",
+          "C0",
+          "H1:E1:operations-completed"
+        ],
+        "payload": {
+          "covenant_ref": "C0",
+          "action": "Pause",
+          "scope": "new joint act"
+        }
+      },
+      "bridge": {
+        "from": "Psi/1",
+        "to": "Psi/2",
+        "source_event_ref": "H_after_pause",
+        "vertices": [
+          0,
+          1,
+          2
+        ],
+        "paths": {
+          "0-1": [
+            [
+              0,
+              1
+            ]
+          ],
+          "1-2": [
+            [
+              1,
+              2
+            ]
+          ],
+          "2-0": [
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        "phi": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "allow_transport_change": true
+      }
+    },
+    "lost_cycle": {
+      "event": {
+        "id": "H_after_lost_cycle",
+        "kind": "HStructuralChangeAfterE1",
+        "source": "H",
+        "origin": "AUTHORED PREMISE",
+        "parents": [
+          "h1",
+          "C0",
+          "H1:E1:operations-completed"
+        ],
+        "payload": {
+          "covenant_ref": "C0",
+          "trace": [
+            0,
+            2,
+            1
+          ],
+          "before": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "after": [
+            0,
+            1,
+            2
+          ],
+          "map": [
+            0,
+            2,
+            1,
+            0,
+            2,
+            1
+          ],
+          "Lost": [
+            "private-H-next"
+          ],
+          "structure": {
+            "from": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                0
+              ]
+            ],
+            "to": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "reason": "authored local factorization change; old edge 2-0 loses image"
+          }
+        }
+      },
+      "bridge": {
+        "from": "Psi/1",
+        "to": "Psi/2",
+        "source_event_ref": "H_after_lost_cycle",
+        "vertices": [
+          0,
+          1,
+          2
+        ],
+        "paths": {
+          "0-1": [
+            [
+              0,
+              1
+            ]
+          ],
+          "1-2": [
+            [
+              1,
+              2
+            ]
+          ],
+          "2-0": null
+        },
+        "phi": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "allow_transport_change": true
+      }
+    }
+  }
+}

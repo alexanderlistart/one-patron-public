@@ -1,0 +1,274 @@
+{
+  "schema": "source-x-own-feedback/3",
+  "histories": {
+    "alpha": {
+      "prefix": "preserved",
+      "terminal": {
+        "id": "H_terminal_alpha",
+        "kind": "HTerminalOwnChange",
+        "source": "H",
+        "origin": "AUTHORED PREMISE",
+        "parents": [
+          "C0",
+          "prefix:executed"
+        ],
+        "payload": {
+          "covenant_ref": "C0",
+          "trace": [
+            1,
+            0,
+            2
+          ],
+          "before": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "after": [
+            0,
+            1,
+            2
+          ],
+          "map": [
+            1,
+            0,
+            2,
+            1,
+            0,
+            2
+          ],
+          "Lost": [
+            "private-H-next"
+          ]
+        }
+      },
+      "address_map": [
+        0,
+        1,
+        2
+      ],
+      "r_enabled": true
+    },
+    "beta": {
+      "prefix": "transformed",
+      "terminal": null,
+      "address_map": [
+        0,
+        1,
+        2
+      ],
+      "r_enabled": true
+    },
+    "counterfeit": {
+      "prefix": "preserved",
+      "terminal": {
+        "id": "H_terminal_alpha",
+        "kind": "HTerminalOwnChange",
+        "source": "H",
+        "origin": "AUTHORED PREMISE",
+        "parents": [
+          "C0",
+          "prefix:executed"
+        ],
+        "payload": {
+          "covenant_ref": "C0",
+          "trace": [
+            1,
+            0,
+            2
+          ],
+          "before": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "after": [
+            0,
+            1,
+            2
+          ],
+          "map": [
+            1,
+            0,
+            2,
+            1,
+            0,
+            2
+          ],
+          "Lost": [
+            "private-H-next"
+          ]
+        }
+      },
+      "address_map": [
+        0,
+        1,
+        2
+      ],
+      "r_enabled": true,
+      "bridge_phi_override": [[1,0,2],[0,1,2],[0,1,2]]
+    },
+    "without_r": {
+      "prefix": "preserved",
+      "terminal": null,
+      "address_map": [
+        0,
+        1,
+        2
+      ],
+      "r_enabled": false
+    }
+  },
+  "choices": {
+    "alpha_H_relational": {
+      "history": "alpha",
+      "actor": "H",
+      "event": {
+        "id": "H_relational",
+        "kind": "OwnEnactment",
+        "actor": "H",
+        "source": "H",
+        "origin": "AUTHORED PREMISE",
+        "context": "own:current:H",
+        "formation": "own:formation:H",
+        "action": "relational"
+      }
+    },
+    "alpha_H_ordinary": {
+      "history": "alpha",
+      "actor": "H",
+      "event": {
+        "id": "H_ordinary",
+        "kind": "OwnEnactment",
+        "actor": "H",
+        "source": "H",
+        "origin": "AUTHORED PREMISE",
+        "context": "own:current:H",
+        "formation": "own:formation:H",
+        "action": "ordinary"
+      }
+    },
+    "alpha_H_Pause": {
+      "history": "alpha",
+      "actor": "H",
+      "event": {
+        "id": "H_Pause",
+        "kind": "OwnEnactment",
+        "actor": "H",
+        "source": "H",
+        "origin": "AUTHORED PREMISE",
+        "context": "own:current:H",
+        "formation": "own:formation:H",
+        "action": "Pause"
+      }
+    },
+    "alpha_A_relational": {
+      "history": "alpha",
+      "actor": "A",
+      "event": {
+        "id": "A_relational",
+        "kind": "OwnEnactment",
+        "actor": "A",
+        "source": "A",
+        "origin": "AUTHORED PREMISE",
+        "context": "own:current:A",
+        "formation": "own:formation:A",
+        "action": "relational"
+      }
+    },
+    "alpha_A_ordinary": {
+      "history": "alpha",
+      "actor": "A",
+      "event": {
+        "id": "A_ordinary",
+        "kind": "OwnEnactment",
+        "actor": "A",
+        "source": "A",
+        "origin": "AUTHORED PREMISE",
+        "context": "own:current:A",
+        "formation": "own:formation:A",
+        "action": "ordinary"
+      }
+    },
+    "alpha_A_Pause": {
+      "history": "alpha",
+      "actor": "A",
+      "event": {
+        "id": "A_Pause",
+        "kind": "OwnEnactment",
+        "actor": "A",
+        "source": "A",
+        "origin": "AUTHORED PREMISE",
+        "context": "own:current:A",
+        "formation": "own:formation:A",
+        "action": "Pause"
+      }
+    },
+    "beta_H_attempt": {
+      "history": "beta",
+      "actor": "H",
+      "event": {
+        "id": "H_beta_relational",
+        "kind": "OwnEnactment",
+        "actor": "H",
+        "source": "H",
+        "origin": "AUTHORED PREMISE",
+        "context": "own:current:H",
+        "formation": "own:formation:H",
+        "action": "relational"
+      }
+    },
+    "alpha_H_wait": {
+      "history": "alpha",
+      "actor": "H",
+      "event": null
+    },
+    "alpha_A_wait": {
+      "history": "alpha",
+      "actor": "A",
+      "event": null
+    }
+  }
+}
