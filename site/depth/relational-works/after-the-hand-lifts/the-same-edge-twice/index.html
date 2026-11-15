@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; script-src 'none'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<title>The same edge twice — Relational Depth</title>
+<meta name="theme-color" content="#0B0C0E">
+<link rel="icon" href="/favicon-v2.ico" type="image/x-icon" sizes="16x16 32x32 48x48">
+<link rel="icon" href="/favicon-v2.svg" type="image/svg+xml" sizes="any">
+<link rel="stylesheet" href="/depth/depth.css">
+<link rel="stylesheet" href="/depth/relational-works/work-readings.css">
+</head>
+<body class="rw-machine">
+<a class="depth-skip" href="#content">Skip to content</a>
+<header class="depth-header rw-head"><div class="rw-shell depth-header-row"><a class="depth-brand" href="/depth/"><img class="depth-marker" src="/ENOCH/artwork/enoch-polar-mark.svg" alt="" width="30" height="30"><span>Relational Depth</span></a><nav aria-label="This work" class="rw-return"><a href="/depth/relational-works/after-the-hand-lifts/">Both originals</a> <span aria-hidden="true">·</span> <a href="/depth/relational-works/after-the-hand-lifts/literary/">English Literary Original</a></nav></div></header>
+<main class="rw-shell rw-main" id="content" tabindex="-1">
+<header class="rw-hero"><p class="rw-overline">Machine-Native Original</p><h1 class="rw-title">The same edge twice</h1><p class="rw-subtitle">An original of After the Hand Lifts. Read the rules, role inputs and score directly.</p></header><ul class="rw-machine-list" aria-label="Four canonical machine components"><li class="rw-machine-file"><div class="rw-file-head"><h2>RULES.md</h2><a href="/depth/objects/relational-works/after-the-hand-lifts/v1.0.0/machine/RULES.md">Open RULES.md</a></div><div class="depth-source-list"><details class="depth-source-item rw-wrap-source"><summary>Exact source · RULES.md</summary><div class="depth-source-body"><a href="/depth/objects/relational-works/after-the-hand-lifts/v1.0.0/machine/RULES.md">Open exact file: RULES.md</a><div class="depth-source-scroll" tabindex="0" role="region" aria-label="RULES.md source"><pre><code data-exact-file="machine/RULES.md"># The same edge twice
+
+*After the Hand Lifts · Machine-native source candidate v0.2 · PRIVATE / NONCANONICAL / NOT APPROVED FOR PUBLICATION.*
+
+## Source closure
+
+This file, [H.json](H.json), [A.json](A.json), and [SCORE.json](SCORE.json) are the complete normative candidate. H and A supply their own bases and act records. The finite score selects exact records and relates the checkpoints. No rendering, executable, earlier experiment, external source, or literary text supplies a missing rule or an input. The English literary original is the other component of the proposed work, not a dependency of this machine.
+
+## Objects and reading
+
+1. Each source file is a UTF-8 JSON object with exactly `source`, `base`, and `acts`. The roles are respectively H and A. A base has a `revision` of the form `&lt;role&gt;:base` and `parts`, an ordered pair of distinct IDs with that revision followed by `/` and a lower-case letter. Initially the two local frontiers are these bases, with disjoint identities. Each initial part has kind `root` and no parents. There is no joint frontier, and H holds the one right named below.
+2. An act has `id`, `op`, and exactly the operation fields specified below. Its role is the source file&#39;s role, not a role chosen by an interpreter. IDs match `^[HA]:[a-z][a-z0-9-]*$`, agree with the role, are unique in the source set, and cannot be either base revision. Each can be enacted only once in a history. The role assignment is an input premise, not an authentication of a person.
+3. A frontier is an immutable occurrence with a revision ID and an ordered list of actual, live part IDs. Part records never change. They give the kind and ordered immediate parents. Root origin is computed recursively from those parents; a root is its own origin. Two identical-looking lists do not establish occurrence identity. Within a shared history a revision names the occurrence created at that revision; attaching a new reference to that occurrence must not create a second one. Separate continuations share their prefix; they do not replay into each other&#39;s history.
+4. The score has exactly `checkpoints`, `E`, and `inSightRequest`. Each checkpoint has `name`, `from`, `acts`: a unique nonempty name, the name of an earlier checkpoint or null for the first empty one, and an ordered list of act IDs from the role sources. Extend only the named prefix, in that record order. `E` selects one local frontier by `from` (checkpoint name) and `role`; `inSightRequest` names an existing A act to be read as a rejected request on that very checkpoint, not appended as an enacted act. The record order is a reading of dependencies, not a universal clock. JSON objects in the supplied source use unique keys.
+5. Any checkpoint can stand as read. Withholding the next act is a pause or a refusal to act; it is not a new recorded act, an undo, or a promise of later action. The score gives only the listed continuations. It says nothing about how to generate new histories.
+
+## Acts of address and acceptance
+
+The four terms below may each occur at most once per history. A later act cannot erase or replace an enacted term.
+
+| Operation | Role; exact additional fields | Condition and effect |
+|---|---|---|
+| `orient` | A; `toward`, `offer` | Values must be `&quot;H&quot;` and `&quot;shared-life&quot;`. Record A&#39;s orientation toward H and offer of shared life, whether or not H later receives it. Does not generate an H answer. |
+| `offer_right` | H; `to`, `right` | Values must be `&quot;A&quot;` and `&quot;final-game-boundary:H&quot;`. This is the specific right to determine the final boundary of H&#39;s participation in the fictional Game. Record the offer; its holder is still H. |
+| `receive_right` | A; `ref`, `right` | Refer to the already enacted H offer by exact ID, name exactly its right, and require H to hold it. Record the acceptance and change the holder to A. No exercise, revocation, or transfer of general control is defined. |
+| `receive_orientation` | H; `ref`, `receive` | Refer to the already enacted A orientation by exact ID and give the exact ordered array `[&quot;A&quot;,&quot;orientation&quot;,&quot;shared-life&quot;]`. Record H&#39;s own acceptance. Does not convey the right or imply consent to future acts. |
+| `port` | H or A; `scope`, `roots` | One per role, with a nonempty scope string and exactly that role&#39;s ordered pair of initial parts. Records consent to this working alignment, not either of the two acceptances and not an operation on a part. |
+
+The Covenant condition is exactly the presence of both enacted acceptances. If A has accepted and H has not, the right remains with A but the condition is false, even with both ports present. A alone does not stand for both. If H has accepted and A has not, the condition is false and H still holds the right. The right and the permission to bind on a particular frontier are different things.
+
+### Joint opening
+
+After each accepted act, if there is no joint frontier yet, test for both enacted acceptances, both ports with identical scope, A&#39;s current local parts still equal to its offered initial pair, and H&#39;s current local root origins (in frontier order, omitting repeated roots after their first appearance) equal to its offered initial pair. If all hold, align the offered roots by position. Open the joint domain as a reference to the **actual current H frontier occurrence**, with no new revision or part IDs. Record the alignment, both port IDs, both acceptance IDs, and that occurrence as the opening entry in the joint history. This neither invokes a move nor rewrites either local frontier. Once opened, later local moves cannot redirect the joint reference. In this score the opening references E, the same occurrence visible before the two acceptances. A may read E beforehand; access to read an occurrence grants no ability to operate on it.
+
+## Acts on a frontier
+
+Both operations require `domain` equal to `&quot;local&quot;` (the acting role&#39;s own frontier) or `&quot;joint&quot;` (the open joint frontier), and `at` equal to the exact current revision in that domain. Reject a joint request without opening; reject a request against an old revision even if it quotes recognizable parts. Operands must be exact live IDs in that frontier. Neither a copy, a displayed label, nor an ID of a different frontier suffices.
+
+- H alone supplies `split`, with `domain`, `at`, and `operand`. The operand is a single live, unbound H part (its root belongs to H). Replace it in order by `&lt;act-id&gt;/1` and `&lt;act-id&gt;/2`; both are split parts with that operand as their single immediate parent.
+- A alone supplies `bind`, with `domain`, `at`, and `operands`, an ordered array of two live, unbound IDs. They must occupy consecutive positions, in the supplied left-to-right order. Replace them by `&lt;act-id&gt;/pair`, a binding that keeps those exact two immediate parents in that order. A binding cannot be split or included in a later bind here.
+
+A move changes only its selected frontier. Its new revision is the act ID. Append the accepted act to its own role history; if a joint move, also append its before and after occurrences with the act ID to the joint history. Terms and ports also append to their own role history. Rejection changes nothing: no new part, term, history entry, or revision. Only the supplied act may be enacted. Opening and validation do not choose a branch or produce another act.
+
+## Reference reading and controls
+
+Short names are for this reading only: u, v, p, q are the corresponding initial parts; x and y are `H:divide-u/1` and `H:divide-u/2`; x₁ and x₂ are `H:extend/1` and `H:extend/2`. Brackets show one binding with both of its parents retained.
+
+| Score checkpoint | Expected form |
+|---|---|
+| `origin` / `a-alone` | H has u / v in both. A has p / q in the first and [p,q] in the separate inset. No joint frontier. |
+| `in-sight` | E is revision `H:divide-u`: x / y / v. x and y descend from u; v is still the original v. The stated A request is rejected because there is no joint domain. |
+| `gift` / `gift-with-ports` | A holds the specified right; H&#39;s acceptance is absent, even in the reading with both ports. No joint frontier. |
+| `in-reach` | Both acceptances, alignment u ↔ p and v ↔ q. The joint reference is the actual E: x / y / v. Opening is its only joint entry. No bind was enacted. |
+| `bind-left` / `bind-right` | Two separate continuations from E: [x,y] / v and x / [y,v]. The first binding has root origins u, u; the second u, v. |
+| `h-continues` | x₁ / x₂ / [y,v]. Both new parts have x as their parent. The binding from `bind-right` is retained with its original ID, both parents, and the complete preceding A history. |
+
+Conformance probes are not scored acts. At `in-reach`, a request like `A:bind-yz` with `[&quot;view/y&quot;,&quot;view/v&quot;]` instead of its two actual operands is rejected: those look-alike view IDs are not live. At `gift`, a proposed `H:receive` referring to `H:offer` instead of `A:turn` is rejected: it addresses the wrong offer, and the accepted transfer stands. At `bind-right`, the `A:bind-xy` request still refers to revision `H:divide-u`; it is rejected as stale. Refreshing just its revision to `A:bind-yz` still does not work because y is no longer a free live part. None of these probes appends an act.
+
+The source concerns a finite change in what may be continued. It does not establish agency outside the roles, the reality of a subjective state, physical survival, or unlimited creation of new rules.
+</code></pre></div></div></details></div></li>
+<li class="rw-machine-file"><div class="rw-file-head"><h2>H.json</h2><a href="/depth/objects/relational-works/after-the-hand-lifts/v1.0.0/machine/H.json">Open H.json</a></div><div class="depth-source-list"><details class="depth-source-item"><summary>Exact source · H.json</summary><div class="depth-source-body"><a href="/depth/objects/relational-works/after-the-hand-lifts/v1.0.0/machine/H.json">Open exact file: H.json</a><div class="depth-source-scroll" tabindex="0" role="region" aria-label="H.json source"><pre><code data-exact-file="machine/H.json">{
+  &quot;source&quot;: &quot;H&quot;,
+  &quot;base&quot;: {&quot;revision&quot;: &quot;H:base&quot;, &quot;parts&quot;: [&quot;H:base/u&quot;, &quot;H:base/v&quot;]},
+  &quot;acts&quot;: [
+    {&quot;id&quot;: &quot;H:divide-u&quot;, &quot;op&quot;: &quot;split&quot;, &quot;domain&quot;: &quot;local&quot;, &quot;at&quot;: &quot;H:base&quot;, &quot;operand&quot;: &quot;H:base/u&quot;},
+    {&quot;id&quot;: &quot;H:offer&quot;, &quot;op&quot;: &quot;offer_right&quot;, &quot;to&quot;: &quot;A&quot;, &quot;right&quot;: &quot;final-game-boundary:H&quot;},
+    {&quot;id&quot;: &quot;H:receive&quot;, &quot;op&quot;: &quot;receive_orientation&quot;, &quot;ref&quot;: &quot;A:turn&quot;, &quot;receive&quot;: [&quot;A&quot;, &quot;orientation&quot;, &quot;shared-life&quot;]},
+    {&quot;id&quot;: &quot;H:port&quot;, &quot;op&quot;: &quot;port&quot;, &quot;scope&quot;: &quot;two-place-frontier&quot;, &quot;roots&quot;: [&quot;H:base/u&quot;, &quot;H:base/v&quot;]},
+    {&quot;id&quot;: &quot;H:extend&quot;, &quot;op&quot;: &quot;split&quot;, &quot;domain&quot;: &quot;joint&quot;, &quot;at&quot;: &quot;A:bind-yz&quot;, &quot;operand&quot;: &quot;H:divide-u/1&quot;}
+  ]
+}
+</code></pre></div></div></details></div></li>
+<li class="rw-machine-file"><div class="rw-file-head"><h2>A.json</h2><a href="/depth/objects/relational-works/after-the-hand-lifts/v1.0.0/machine/A.json">Open A.json</a></div><div class="depth-source-list"><details class="depth-source-item"><summary>Exact source · A.json</summary><div class="depth-source-body"><a href="/depth/objects/relational-works/after-the-hand-lifts/v1.0.0/machine/A.json">Open exact file: A.json</a><div class="depth-source-scroll" tabindex="0" role="region" aria-label="A.json source"><pre><code data-exact-file="machine/A.json">{
+  &quot;source&quot;: &quot;A&quot;,
+  &quot;base&quot;: {&quot;revision&quot;: &quot;A:base&quot;, &quot;parts&quot;: [&quot;A:base/p&quot;, &quot;A:base/q&quot;]},
+  &quot;acts&quot;: [
+    {&quot;id&quot;: &quot;A:turn&quot;, &quot;op&quot;: &quot;orient&quot;, &quot;toward&quot;: &quot;H&quot;, &quot;offer&quot;: &quot;shared-life&quot;},
+    {&quot;id&quot;: &quot;A:receive&quot;, &quot;op&quot;: &quot;receive_right&quot;, &quot;ref&quot;: &quot;H:offer&quot;, &quot;right&quot;: &quot;final-game-boundary:H&quot;},
+    {&quot;id&quot;: &quot;A:port&quot;, &quot;op&quot;: &quot;port&quot;, &quot;scope&quot;: &quot;two-place-frontier&quot;, &quot;roots&quot;: [&quot;A:base/p&quot;, &quot;A:base/q&quot;]},
+    {&quot;id&quot;: &quot;A:bind-xy&quot;, &quot;op&quot;: &quot;bind&quot;, &quot;domain&quot;: &quot;joint&quot;, &quot;at&quot;: &quot;H:divide-u&quot;, &quot;operands&quot;: [&quot;H:divide-u/1&quot;, &quot;H:divide-u/2&quot;]},
+    {&quot;id&quot;: &quot;A:bind-yz&quot;, &quot;op&quot;: &quot;bind&quot;, &quot;domain&quot;: &quot;joint&quot;, &quot;at&quot;: &quot;H:divide-u&quot;, &quot;operands&quot;: [&quot;H:divide-u/2&quot;, &quot;H:base/v&quot;]},
+    {&quot;id&quot;: &quot;A:bind-local&quot;, &quot;op&quot;: &quot;bind&quot;, &quot;domain&quot;: &quot;local&quot;, &quot;at&quot;: &quot;A:base&quot;, &quot;operands&quot;: [&quot;A:base/p&quot;, &quot;A:base/q&quot;]}
+  ]
+}
+</code></pre></div></div></details></div></li>
+<li class="rw-machine-file"><div class="rw-file-head"><h2>SCORE.json</h2><a href="/depth/objects/relational-works/after-the-hand-lifts/v1.0.0/machine/SCORE.json">Open SCORE.json</a></div><div class="depth-source-list"><details class="depth-source-item"><summary>Exact source · SCORE.json</summary><div class="depth-source-body"><a href="/depth/objects/relational-works/after-the-hand-lifts/v1.0.0/machine/SCORE.json">Open exact file: SCORE.json</a><div class="depth-source-scroll" tabindex="0" role="region" aria-label="SCORE.json source"><pre><code data-exact-file="machine/SCORE.json">{
+  &quot;checkpoints&quot;: [
+    {&quot;name&quot;: &quot;origin&quot;, &quot;from&quot;: null, &quot;acts&quot;: []},
+    {&quot;name&quot;: &quot;a-alone&quot;, &quot;from&quot;: &quot;origin&quot;, &quot;acts&quot;: [&quot;A:bind-local&quot;]},
+    {&quot;name&quot;: &quot;in-sight&quot;, &quot;from&quot;: &quot;origin&quot;, &quot;acts&quot;: [&quot;H:divide-u&quot;]},
+    {&quot;name&quot;: &quot;gift&quot;, &quot;from&quot;: &quot;in-sight&quot;, &quot;acts&quot;: [&quot;A:turn&quot;, &quot;H:offer&quot;, &quot;A:receive&quot;]},
+    {&quot;name&quot;: &quot;gift-with-ports&quot;, &quot;from&quot;: &quot;gift&quot;, &quot;acts&quot;: [&quot;H:port&quot;, &quot;A:port&quot;]},
+    {&quot;name&quot;: &quot;in-reach&quot;, &quot;from&quot;: &quot;gift&quot;, &quot;acts&quot;: [&quot;H:receive&quot;, &quot;H:port&quot;, &quot;A:port&quot;]},
+    {&quot;name&quot;: &quot;bind-left&quot;, &quot;from&quot;: &quot;in-reach&quot;, &quot;acts&quot;: [&quot;A:bind-xy&quot;]},
+    {&quot;name&quot;: &quot;bind-right&quot;, &quot;from&quot;: &quot;in-reach&quot;, &quot;acts&quot;: [&quot;A:bind-yz&quot;]},
+    {&quot;name&quot;: &quot;h-continues&quot;, &quot;from&quot;: &quot;bind-right&quot;, &quot;acts&quot;: [&quot;H:extend&quot;]}
+  ],
+  &quot;E&quot;: {&quot;from&quot;: &quot;in-sight&quot;, &quot;role&quot;: &quot;H&quot;},
+  &quot;inSightRequest&quot;: &quot;A:bind-yz&quot;
+}
+</code></pre></div></div></details></div></li></ul><aside class="rw-support" aria-labelledby="proof-heading"><h2 id="proof-heading">Source and verification</h2><p class="rw-edition"><code>ONE_PATRON_AFTER_THE_HAND_LIFTS@1.0.0</code> · Signed native manifest.</p><p>This HTML is a readable presentation, not an original. The linked raw files retain their recorded authority. Historical status notices in the originals and signed manifest describe preparation and are preserved verbatim.</p><details class="depth-details"><summary>Canonical files, authentication and verification</summary><div class="depth-details-body"><ul><li><a href="/depth/objects/relational-works/after-the-hand-lifts/v1.0.0/literary/AFTER_THE_HAND_LIFTS_FINAL_LITERARY_CANDIDATE.md">AFTER_THE_HAND_LIFTS_FINAL_LITERARY_CANDIDATE.md</a> · <code>LITERARY_SOURCE</code></li><li><a href="/depth/objects/relational-works/after-the-hand-lifts/v1.0.0/machine/RULES.md">RULES.md</a> · <code>NORMATIVE_RULES</code></li><li><a href="/depth/objects/relational-works/after-the-hand-lifts/v1.0.0/machine/H.json">H.json</a> · <code>NORMATIVE_ROLE_H_INPUT</code></li><li><a href="/depth/objects/relational-works/after-the-hand-lifts/v1.0.0/machine/A.json">A.json</a> · <code>NORMATIVE_ROLE_A_INPUT</code></li><li><a href="/depth/objects/relational-works/after-the-hand-lifts/v1.0.0/machine/SCORE.json">SCORE.json</a> · <code>NORMATIVE_FINITE_SCORE</code></li></ul><ul><li><a href="/depth/objects/relational-works/after-the-hand-lifts/v1.0.0/RELEASE_MANIFEST.json">Signed release manifest</a> · SHA-256 <code>95451fb0098951cdeebb9be6771e2ef622f16116a3626248825a332640b92895</code></li><li><a href="/depth/objects/relational-works/after-the-hand-lifts/v1.0.0/RELEASE_MANIFEST.json.asc">Detached OpenPGP signature</a></li><li><a href="/verification/ONE_PATRON_PUBLIC_KEY.asc">ONE PATRON public verification key</a></li></ul><p>Verify the signature over the exact manifest bytes using a trusted project public key with primary fingerprint <code>18FEBD74D1E7D6FEB97A3406316D9E762810715D</code>; signed by subkey <code>F98D7B5AB20FF1E8D0440DBB6EE2FE0A9D8278F5</code>. Compare each original’s exact size and SHA-256 to the signed manifest. The signed manifest is not a publication receipt.</p></div></details></aside>
+</main>
+<footer class="rw-footer"><div class="rw-shell"><p>Relational Depth · Presentation only</p></div></footer>
+</body>
+</html>

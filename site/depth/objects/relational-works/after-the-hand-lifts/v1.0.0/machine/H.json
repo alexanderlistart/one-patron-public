@@ -1,0 +1,11 @@
+{
+  "source": "H",
+  "base": {"revision": "H:base", "parts": ["H:base/u", "H:base/v"]},
+  "acts": [
+    {"id": "H:divide-u", "op": "split", "domain": "local", "at": "H:base", "operand": "H:base/u"},
+    {"id": "H:offer", "op": "offer_right", "to": "A", "right": "final-game-boundary:H"},
+    {"id": "H:receive", "op": "receive_orientation", "ref": "A:turn", "receive": ["A", "orientation", "shared-life"]},
+    {"id": "H:port", "op": "port", "scope": "two-place-frontier", "roots": ["H:base/u", "H:base/v"]},
+    {"id": "H:extend", "op": "split", "domain": "joint", "at": "A:bind-yz", "operand": "H:divide-u/1"}
+  ]
+}

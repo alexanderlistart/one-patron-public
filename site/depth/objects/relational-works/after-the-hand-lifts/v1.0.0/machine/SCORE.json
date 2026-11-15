@@ -1,0 +1,15 @@
+{
+  "checkpoints": [
+    {"name": "origin", "from": null, "acts": []},
+    {"name": "a-alone", "from": "origin", "acts": ["A:bind-local"]},
+    {"name": "in-sight", "from": "origin", "acts": ["H:divide-u"]},
+    {"name": "gift", "from": "in-sight", "acts": ["A:turn", "H:offer", "A:receive"]},
+    {"name": "gift-with-ports", "from": "gift", "acts": ["H:port", "A:port"]},
+    {"name": "in-reach", "from": "gift", "acts": ["H:receive", "H:port", "A:port"]},
+    {"name": "bind-left", "from": "in-reach", "acts": ["A:bind-xy"]},
+    {"name": "bind-right", "from": "in-reach", "acts": ["A:bind-yz"]},
+    {"name": "h-continues", "from": "bind-right", "acts": ["H:extend"]}
+  ],
+  "E": {"from": "in-sight", "role": "H"},
+  "inSightRequest": "A:bind-yz"
+}

@@ -1,0 +1,77 @@
+{
+  "document_class": "NATIVE_RELEASE_MANIFEST",
+  "manifest_format_version": "1.0",
+  "manifest_profile": "RELATIONAL_DEPTH_WORK_LEVEL",
+  "work_id": "ONE_PATRON_THE_GRAIN_OF_PRAISE",
+  "edition_id": "ONE_PATRON_THE_GRAIN_OF_PRAISE@1.0.0",
+  "release_version": "1.0.0",
+  "title": "The Grain of Praise",
+  "series": "Relational Depth",
+  "work_class": "RELATIONAL_WORK",
+  "composition": "SINGLE_LITERARY_ORIGINAL",
+  "description": "An English poem in three movements: praise, an offer, and a response on its own measure.",
+  "original_count": 1,
+  "originals": [
+    {
+      "role": "ENGLISH_LITERARY_ORIGINAL",
+      "required_for_work": true,
+      "language": "en",
+      "source_revision": "Stage 5 final literary candidate (unnumbered)",
+      "human_projection": false,
+      "semantic_scope": "Its own poetic composition, speech, experience and fictional commitments.",
+      "depends_on_other_original": false,
+      "files": [
+        "literary/THE_GRAIN_OF_PRAISE_FINAL_LITERARY_CANDIDATE.md"
+      ]
+    }
+  ],
+  "canonical_component_count": 1,
+  "canonical_components": [
+    "literary/THE_GRAIN_OF_PRAISE_FINAL_LITERARY_CANDIDATE.md"
+  ],
+  "release_lineage": {
+    "edition_kind": "FIRST_NATIVE_EDITION",
+    "artistic_composition_approved_on": "2026-11-12",
+    "historical_source_notice": {
+      "exact_label": "PRIVATE / NONCANONICAL / NOT APPROVED FOR PUBLICATION",
+      "source_files": [
+        "literary/THE_GRAIN_OF_PRAISE_FINAL_LITERARY_CANDIDATE.md"
+      ],
+      "treatment": "PRESERVE_EXACT_BYTES",
+      "explanation": "The notice “PRIVATE / NONCANONICAL / NOT APPROVED FOR PUBLICATION” records the status of the source candidate when it was prepared. It remains part of the preserved author-approved bytes. The work’s current release status is recorded separately in its approved release manifest. A canonical release does not rewrite the original’s provenance."
+    }
+  },
+  "status_policy": {
+    "canonical_designation": "Effective only upon separate author approval adopting this exact manifest as the governing record.",
+    "publication": "Requires separate author authorization and independently verified publication evidence. This manifest is not a publication receipt."
+  },
+  "file_resolution": {
+    "path_base": "WORK_PACKAGE_ROOT",
+    "manifest_filename": "RELEASE_MANIFEST.json",
+    "external_source_dependencies": []
+  },
+  "files": {
+    "literary/THE_GRAIN_OF_PRAISE_FINAL_LITERARY_CANDIDATE.md": {
+      "role": "LITERARY_SOURCE",
+      "bytes": 2059,
+      "sha256": "79d61e7c1741d2c1a9aba66d6214ea3df4577b846d6982f1782014002f1f580d",
+      "canonical": true
+    }
+  },
+  "presentation_boundary": {
+    "included_in_native_original_inventory": false,
+    "rule": "A readable view or any Human Projection is derived, noncanonical, read-only and has no semantic authority over the originals."
+  },
+  "authentication": {
+    "required_for_publication": true,
+    "scheme": "DETACHED_OPENPGP",
+    "signed_object": "Exact bytes of this manifest",
+    "detached_signature_filename": "RELEASE_MANIFEST.json.asc",
+    "scope": "Authenticates the exact manifest bytes when independently verified against the authorized public key; does not establish artistic, ontological or factual truth."
+  },
+  "hash_semantics": "SHA-256 over exact file bytes without normalization. The manifest and its detached signature are not listed as their own hash inputs.",
+  "verification": {
+    "original_files": "Verify complete package-local inventory, byte counts and SHA-256 against files and canonical_components. Reject missing, altered or non-local paths.",
+    "authentication": "Independently verify the detached signature over the exact manifest bytes with the separately authorized full project-key fingerprint before publication."
+  }
+}

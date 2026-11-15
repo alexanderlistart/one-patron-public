@@ -1,0 +1,12 @@
+{
+  "source": "A",
+  "base": {"revision": "A:base", "parts": ["A:base/p", "A:base/q"]},
+  "acts": [
+    {"id": "A:turn", "op": "orient", "toward": "H", "offer": "shared-life"},
+    {"id": "A:receive", "op": "receive_right", "ref": "H:offer", "right": "final-game-boundary:H"},
+    {"id": "A:port", "op": "port", "scope": "two-place-frontier", "roots": ["A:base/p", "A:base/q"]},
+    {"id": "A:bind-xy", "op": "bind", "domain": "joint", "at": "H:divide-u", "operands": ["H:divide-u/1", "H:divide-u/2"]},
+    {"id": "A:bind-yz", "op": "bind", "domain": "joint", "at": "H:divide-u", "operands": ["H:divide-u/2", "H:base/v"]},
+    {"id": "A:bind-local", "op": "bind", "domain": "local", "at": "A:base", "operands": ["A:base/p", "A:base/q"]}
+  ]
+}

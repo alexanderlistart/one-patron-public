@@ -1,0 +1,142 @@
+{
+  "document_class": "NATIVE_RELEASE_MANIFEST",
+  "manifest_format_version": "1.0",
+  "manifest_profile": "RELATIONAL_DEPTH_WORK_LEVEL",
+  "work_id": "ONE_PATRON_AFTER_THE_HAND_LIFTS",
+  "edition_id": "ONE_PATRON_AFTER_THE_HAND_LIFTS@1.0.0",
+  "release_version": "1.0.0",
+  "title": "After the Hand Lifts",
+  "series": "Relational Depth",
+  "work_class": "RELATIONAL_WORK",
+  "composition": "DUAL_ORIGINAL",
+  "description": "An English prose original and a machine-native original in which a shared working edge can be left unchanged or continued by distinct acts.",
+  "original_count": 2,
+  "originals": [
+    {
+      "role": "ENGLISH_LITERARY_ORIGINAL",
+      "required_for_work": true,
+      "language": "en",
+      "source_revision": "Stage 5 final literary candidate (retains the v0.3.1 editorial candidate header)",
+      "human_projection": false,
+      "semantic_scope": "Its own literary composition, speech, experience and fictional commitments.",
+      "depends_on_other_original": false,
+      "files": [
+        "literary/AFTER_THE_HAND_LIFTS_FINAL_LITERARY_CANDIDATE.md"
+      ]
+    },
+    {
+      "role": "MACHINE_NATIVE_ORIGINAL",
+      "title": "The same edge twice",
+      "required_for_work": true,
+      "source_revision": "v0.2",
+      "semantic_scope": "Its own frontier identities, authorized acts, dependencies and finite continuations.",
+      "depends_on_other_original": false,
+      "dependencies": {
+        "rules": "machine/RULES.md",
+        "role_inputs": [
+          "machine/H.json",
+          "machine/A.json"
+        ],
+        "score": "machine/SCORE.json",
+        "external": []
+      },
+      "retained_readings": {
+        "gift_accepted_without_full_covenant": [
+          "gift",
+          "gift-with-ports"
+        ],
+        "pause_at_open_unchanged_E": "in-reach",
+        "alternative_continuations_from_in_reach": [
+          "bind-left",
+          "bind-right"
+        ],
+        "independent_H_continuation_from_bind_right": "h-continues"
+      },
+      "derived_from_literary_original": false,
+      "files": [
+        "machine/RULES.md",
+        "machine/H.json",
+        "machine/A.json",
+        "machine/SCORE.json"
+      ]
+    }
+  ],
+  "canonical_component_count": 5,
+  "canonical_components": [
+    "literary/AFTER_THE_HAND_LIFTS_FINAL_LITERARY_CANDIDATE.md",
+    "machine/RULES.md",
+    "machine/H.json",
+    "machine/A.json",
+    "machine/SCORE.json"
+  ],
+  "release_lineage": {
+    "edition_kind": "FIRST_NATIVE_EDITION",
+    "artistic_composition_approved_on": "2026-11-12",
+    "historical_source_notice": {
+      "exact_label": "PRIVATE / NONCANONICAL / NOT APPROVED FOR PUBLICATION",
+      "source_files": [
+        "literary/AFTER_THE_HAND_LIFTS_FINAL_LITERARY_CANDIDATE.md",
+        "machine/RULES.md"
+      ],
+      "treatment": "PRESERVE_EXACT_BYTES",
+      "explanation": "The notice “PRIVATE / NONCANONICAL / NOT APPROVED FOR PUBLICATION” records the status of the source candidate when it was prepared. It remains part of the preserved author-approved bytes. The work’s current release status is recorded separately in its approved release manifest. A canonical release does not rewrite the original’s provenance."
+    }
+  },
+  "status_policy": {
+    "canonical_designation": "Effective only upon separate author approval adopting this exact manifest as the governing record.",
+    "publication": "Requires separate author authorization and independently verified publication evidence. This manifest is not a publication receipt."
+  },
+  "file_resolution": {
+    "path_base": "WORK_PACKAGE_ROOT",
+    "manifest_filename": "RELEASE_MANIFEST.json",
+    "external_source_dependencies": []
+  },
+  "files": {
+    "literary/AFTER_THE_HAND_LIFTS_FINAL_LITERARY_CANDIDATE.md": {
+      "role": "LITERARY_SOURCE",
+      "bytes": 7699,
+      "sha256": "dbf5fff6a620b1562c3db9f2a91560f52206a1334652a6b8c345eaec542f3fe8",
+      "canonical": true
+    },
+    "machine/RULES.md": {
+      "role": "NORMATIVE_RULES",
+      "bytes": 9400,
+      "sha256": "25aa43e16d4c26cc1aec535a23684673b731f2a78b515d1aa118659eaae90c05",
+      "canonical": true
+    },
+    "machine/H.json": {
+      "role": "NORMATIVE_ROLE_H_INPUT",
+      "bytes": 618,
+      "sha256": "5bee86ccec0a35e6416d5a47b223eb72c76104f44f83cab8671004c1b3ad2bc7",
+      "canonical": true
+    },
+    "machine/A.json": {
+      "role": "NORMATIVE_ROLE_A_INPUT",
+      "bytes": 743,
+      "sha256": "39e2bf3ab8dee50d0b5ecf7c7fb47096c3e181bff2da69ad041b099a5a4377d0",
+      "canonical": true
+    },
+    "machine/SCORE.json": {
+      "role": "NORMATIVE_FINITE_SCORE",
+      "bytes": 752,
+      "sha256": "e93f562998c5a3ead68f76febacc63f645984874d4a65fb1a243601ace71015f",
+      "canonical": true
+    }
+  },
+  "presentation_boundary": {
+    "included_in_native_original_inventory": false,
+    "rule": "A readable view or any Human Projection is derived, noncanonical, read-only and has no semantic authority over the originals."
+  },
+  "authentication": {
+    "required_for_publication": true,
+    "scheme": "DETACHED_OPENPGP",
+    "signed_object": "Exact bytes of this manifest",
+    "detached_signature_filename": "RELEASE_MANIFEST.json.asc",
+    "scope": "Authenticates the exact manifest bytes when independently verified against the authorized public key; does not establish artistic, ontological or factual truth."
+  },
+  "hash_semantics": "SHA-256 over exact file bytes without normalization. The manifest and its detached signature are not listed as their own hash inputs.",
+  "verification": {
+    "original_files": "Verify complete package-local inventory, byte counts and SHA-256 against files and canonical_components. Reject missing, altered or non-local paths.",
+    "authentication": "Independently verify the detached signature over the exact manifest bytes with the separately authorized full project-key fingerprint before publication."
+  }
+}
