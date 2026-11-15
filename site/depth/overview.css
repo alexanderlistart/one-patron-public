@@ -69,7 +69,7 @@
   font: 400 clamp(52px, 9.8vw, 121px)/.96 var(--depth-serif);
   letter-spacing: -.065em;
 }
-.overview-intro h1 span { color: #d7bd87; }
+.overview-intro h1 span { color: var(--depth-gold); }
 .overview-intro .depth-lede { margin-top: 26px; color: var(--depth-text); }
 .overview-intro .depth-body { max-width: 46ch; margin-bottom: 0; }
 .overview-motif {
@@ -118,7 +118,7 @@
 }
 .overview-entries a:hover { text-decoration: underline; }
 .overview-number {
-  color: #d7bd87;
+  color: var(--depth-gold);
   font: 400 11px/1.5 var(--depth-mono);
   letter-spacing: .05em;
 }
