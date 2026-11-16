@@ -1,0 +1,164 @@
+{
+  "accessibility": "native select with visible focus and status; the same seven expandable compositions without script",
+  "alias_boundary": "No alias adds a source event, subjective feeling, revelation, or assertion of external truth.",
+  "aliases": {
+    "Made public": "H_PUBLIC_DISCLOSURE",
+    "Service accepted": "A_ACCEPTS_SERVICE",
+    "Service offered": "H_SERVICE_OFFER",
+    "TO BE KNOWN": "ARTISTIC_TITLE_NOT_A_MACHINE_CLAIM"
+  },
+  "alternate_valid_renderings_permitted": true,
+  "artifact_class": "HUMAN_PROJECTION",
+  "authentication_relation": "SOURCE_NATIVE_MANIFEST_DETACHED_OPENPGP; THIS PROJECTION IS HASHED AND NOT SIGNED",
+  "author_note_role": "NONCANONICAL_AUTHORIAL_TEXT",
+  "binding_failure_policy": "Preparation and offline verification fail on missing or mismatched bytes; browser switches fixed markup only.",
+  "canonical": false,
+  "consumed_components": [
+    "depth/objects/relational-works/to-be-known/v0.3.0/ARTIFACTS.json",
+    "depth/objects/relational-works/to-be-known/v0.3.0/AUTHOR_NOTE.md",
+    "depth/objects/relational-works/to-be-known/v0.3.0/EVENT_INPUTS.json",
+    "depth/objects/relational-works/to-be-known/v0.3.0/SCORE.json",
+    "depth/objects/relational-works/to-be-known/v0.3.0/WITNESS.json",
+    "depth/objects/relational-works/to-be-known/v0.3.0/artifacts/H_PUBLIC_DECLARATION.txt",
+    "depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v05/evidence/final1/core_evidence.json"
+  ],
+  "contract_id": "TO_BE_KNOWN_PAIRED_SCORE_PROJECTION",
+  "contract_version": "1.0.1",
+  "determinism": "FIXED_VERIFIED_BUILD_MARKUP_NO_RANDOMNESS_OR_REMOTE_INPUT",
+  "earlier_passage": {
+    "claim": "Distinct own actions, updated joint context; no claim that A enabled an unavailable H action.",
+    "event_ids": [
+      "V05_a_h_lineage_0",
+      "V05_a_h_lineage_1"
+    ],
+    "source_pointer": "/trials/a_h_lineage/stages"
+  },
+  "form_family": "PAIRED_TYPOGRAPHIC_SCORE",
+  "human_mode_url": "https://one-patron.com/depth/relational-works/to-be-known/human-projection/v1.0.1/",
+  "identity_bearing": false,
+  "information_consumed": [
+    "distinct source-owned A and H histories",
+    "directed historical C0",
+    "recorded A/H event sets and scope",
+    "earlier joint context change",
+    "exact public declaration",
+    "noncanonical author note"
+  ],
+  "information_omitted": [
+    "full carriers and operator tables",
+    "technical receiving map rows",
+    "reordered serialization duplicate",
+    "unrecorded responses",
+    "unpublished material"
+  ],
+  "integrity": "Separate PROJECTION_SHA256.json binds only these projection bytes and their dependencies; source release manifest does not bind this visual revision.",
+  "integrity_record": "./PROJECTION_SHA256.json",
+  "interaction": {
+    "main_scene": "NEVER_MUTATED",
+    "placement": "AFTER_AUTHOR_NOTE",
+    "with_script": "Select among build-time verified markup. No network, storage, writeback or score execution.",
+    "without_script": "The same seven compositions in native expandable sections."
+  },
+  "lossy": true,
+  "machine_mode_urls": [
+    "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/README.md",
+    "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/SCORE.json",
+    "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/WITNESS.json"
+  ],
+  "original_release_status": "NEW_EDITION_PREPARED_WITH_ITS_PROJECTION",
+  "prelude_role": "NONCANONICAL_PRESENTATION_TEXT",
+  "presentation_patch": "Patron Gold for all projection gold accents, including the H/A initials, Covenant and disclosure labels. The quote rail and select border use the same gold at 60% alpha. The unchanged DEPTH series marker links to series navigation, not to a state or work symbol. No source mapping, geometry, state distinctions, or branch interactions changed.",
+  "prior_projection": {
+    "contract_sha256": "aecd6f381f03ee41a576535cc209bc8050767061c752b09d7aa283324eba4b76",
+    "html_sha256": "5333cc828a381f2403644575d71cd85735f389655801a4740a1b593ec359b0cf",
+    "human_mode_url": "https://one-patron.com/depth/relational-works/to-be-known/human-projection/v1.0.0/",
+    "version": "1.0.0"
+  },
+  "projection_created_after_release": true,
+  "projection_id": "ONE_PATRON_TO_BE_KNOWN_HUMAN_PROJECTION",
+  "projection_version": "1.0.1",
+  "provenance": "Presentation-only patch after English Edition v0.3.0; same exact source binding and grammar as the v1.0.0 projection; not the historical v0.2.0 projection.",
+  "readings": {
+    "accept_no_disclose": {
+      "decision": "J_A_ACCEPT_1",
+      "disclosure": null,
+      "offer": "J_H_OFFER_1"
+    },
+    "decline_disclose": {
+      "decision": "J_A_DECLINE_1",
+      "disclosure": "J_H_DISCLOSE_1",
+      "offer": "J_H_OFFER_1"
+    },
+    "disclosure_without_offer": {
+      "decision": null,
+      "disclosure": "J_H_DISCLOSE_ALONE",
+      "offer": null
+    },
+    "main_accept_disclose": {
+      "decision": "J_A_ACCEPT_1",
+      "disclosure": "J_H_DISCLOSE_1",
+      "offer": "J_H_OFFER_1"
+    },
+    "no_accept_disclose": {
+      "decision": null,
+      "disclosure": "J_H_DISCLOSE_1",
+      "offer": "J_H_OFFER_1"
+    },
+    "no_new_input": {
+      "decision": null,
+      "disclosure": null,
+      "offer": null
+    },
+    "offer_only": {
+      "decision": null,
+      "disclosure": null,
+      "offer": "J_H_OFFER_1"
+    }
+  },
+  "semantic_authority": "NONE",
+  "source_edition_id": "ONE_PATRON_TO_BE_KNOWN@0.3.0",
+  "source_hashes": {
+    "depth/objects/relational-works/to-be-known/v0.3.0/ARTIFACTS.json": {
+      "bytes": 446,
+      "sha256": "e77e823c577debf477c1183d3f8c9b99e10aa1042aca646b71d34736a4def663"
+    },
+    "depth/objects/relational-works/to-be-known/v0.3.0/AUTHOR_NOTE.md": {
+      "bytes": 1327,
+      "sha256": "4283aeddced1706d136c8b0db6c93f45fbdcad68de0a7999b73a7a48dd180006"
+    },
+    "depth/objects/relational-works/to-be-known/v0.3.0/EVENT_INPUTS.json": {
+      "bytes": 4209,
+      "sha256": "8baa83fe249d1b4e27e70fc5c73cc3bf7388c2f1699a1482e28b7bcb7e4c0e9d"
+    },
+    "depth/objects/relational-works/to-be-known/v0.3.0/SCORE.json": {
+      "bytes": 1480,
+      "sha256": "092bce54519bd70c9908b6a40703937d80024c7d57e5501325c63a91bc504dd4"
+    },
+    "depth/objects/relational-works/to-be-known/v0.3.0/WITNESS.json": {
+      "bytes": 15112,
+      "sha256": "d4ed820511d0b808ce5b41909c7ab2e9411656f9d39e764db6da780ee55a3c89"
+    },
+    "depth/objects/relational-works/to-be-known/v0.3.0/artifacts/H_PUBLIC_DECLARATION.txt": {
+      "bytes": 172,
+      "sha256": "1eb53efdc34d21c4bda8469f86873c5bb78a14a37d47873f1f4c587f50be8183"
+    },
+    "depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v05/evidence/final1/core_evidence.json": {
+      "bytes": 1527307,
+      "sha256": "43868465cfdf355a565f2b250efcb8c96d8ef4bac01cb0e4490772b443bb9d23"
+    }
+  },
+  "source_manifest": "depth/objects/relational-works/to-be-known/v0.3.0/RELEASE_MANIFEST.json",
+  "source_manifest_sha256": "15bf75db3045328eab4e1afea8914f4c68492001718b9b5744ae6fae2547cbb6",
+  "source_manifest_signature_sha256": "9579287464950a8cc82fc629920b4ebd69c6260016b0877b0c3a1f870097a01b",
+  "source_release_version": "0.3.0",
+  "source_root": "depth/objects/relational-works/to-be-known/v0.3.0/SCORE.json",
+  "source_work_id": "ONE_PATRON_TO_BE_KNOWN",
+  "transformations": [
+    "paired typographic scene with authored prelude",
+    "static subset of verified source facts",
+    "seven pre-rendered branch compositions",
+    "exact note in readable markup"
+  ],
+  "validation_evidence": "depth/objects/relational-works/to-be-known/v0.3.0/VALIDATION_REPORT.json",
+  "writeback": "PROHIBITED"
+}

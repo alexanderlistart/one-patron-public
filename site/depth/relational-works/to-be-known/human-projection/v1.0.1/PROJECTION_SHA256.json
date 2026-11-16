@@ -1,0 +1,41 @@
+{
+  "artifact_class": "HUMAN_PROJECTION",
+  "authentication": "HASHED_NOT_SIGNED",
+  "canonical": false,
+  "existing_dependencies": {
+    "/ENOCH/artwork/enoch-polar-mark.svg": {
+      "bytes": 4935,
+      "sha256": "ce68de962b89c18dc747bbf1408267e752ee61267ed8fbe8d3285d60a3caa499"
+    },
+    "/depth/depth.css": {
+      "bytes": 11775,
+      "sha256": "a8d83a148fa660753cd55ef837e1489301773afd07aa2087ae2c83c0e25c66f4"
+    },
+    "/favicon-v2.svg": {
+      "bytes": 2537,
+      "sha256": "f86004feb77bfd4c01b2bcbf165fe6c49aef509a7df171cd14f37443cde7288b"
+    }
+  },
+  "files": {
+    "PROJECTION_CONTRACT.json": {
+      "bytes": 7667,
+      "sha256": "0aaa3d13ef66d4dd6ebed70be57905dc02361203342083a6524b0aa30229a4f8"
+    },
+    "assets/branches.js": {
+      "bytes": 1107,
+      "sha256": "224aa051737e2a0b226af68323840375c92cfe707a3726c2a794d460f22c2a8c"
+    },
+    "assets/work.css": {
+      "bytes": 5155,
+      "sha256": "44d1043f05b5f6d2dd241aa5981d330a4181dc2cb203bcfb148b9bed9ba083dd"
+    },
+    "index.html": {
+      "bytes": 13936,
+      "sha256": "ff5911cbe6f402738b7a46de40d9dcfb7afc3ba3bc6ef564e8c9857445471005"
+    }
+  },
+  "projection_version": "1.0.1",
+  "semantic_authority": "NONE",
+  "source_edition_id": "ONE_PATRON_TO_BE_KNOWN@0.3.0",
+  "source_manifest_sha256": "15bf75db3045328eab4e1afea8914f4c68492001718b9b5744ae6fae2547cbb6"
+}
