@@ -125,6 +125,29 @@
 .overview-relational-catalog { max-width: 42rem; }
 .overview-relational-catalog .overview-entries { margin-top: 24px; }
 .overview-relational-catalog .overview-entries li { grid-template-columns: minmax(0, 1fr); }
+.overview-relational-catalog .overview-projection-history {
+  padding-bottom: 9px;
+  color: var(--depth-muted-strong);
+  font: 400 14px/1.5 var(--depth-sans);
+}
+.overview-projection-history summary {
+  width: fit-content;
+  max-width: 100%;
+  padding-block: 4px;
+  cursor: pointer;
+}
+.overview-projection-history summary:hover { color: var(--depth-text); }
+.overview-relational-catalog .overview-projection-history > a {
+  width: fit-content;
+  max-width: calc(100% - 14px);
+  margin-inline-start: 14px;
+  padding-block: 5px 4px;
+}
+.overview-projection-history summary:focus-visible,
+.overview-projection-history > a:focus-visible {
+  outline: 2px solid var(--depth-blue);
+  outline-offset: 2px;
+}
 .overview-withdrawal {
   max-width: 42rem;
   margin-top: 28px;
