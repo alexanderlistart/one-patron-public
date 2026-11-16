@@ -20,10 +20,12 @@ This repository preserves the public-facing core website and Protocol, ENOCH, Re
 - `site/` — clean public source subset after the TO BE KNOWN withdrawal; not a full reproducible export of production. Existing historical source differences are retained.
 - `social/` — current public social-media assets.
 - `media/` — selected public audiovisual works.
-- `source-code/` — scripts used to produce project assets.
+- `source-code/` — scripts used to produce project assets and the [favicon release gate](source-code/favicon-gate/README.md).
 - `provenance/` — signed Origin Record, public record links and rights notice.
 
 The unreleased hidden-score architecture, owner runbooks, private drafts and superseded variants are intentionally not included in this public subset.
+
+The favicon gate is required on final generated assets before the release handoff. The public `site/` tree provides test fixtures; it is not a verified production baseline.
 
 See `provenance/RIGHTS_NOTICE.md` for rights information.
 

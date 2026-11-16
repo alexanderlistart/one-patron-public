@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "policy_id": "ONE_PATRON_SHARED_FAVICON",
+  "version": "0.1.0",
+  "status": "LOCAL_RELEASE_GATE",
+  "required_order": ["ico", "svg"],
+  "optional_order": ["touch", "mask"],
+  "unsupported_rels": ["shortcut", "apple-touch-icon-precomposed", "manifest"],
+  "assets": {
+    "ico": {
+      "link": {"rel": "icon", "href": "/favicon-v2.ico", "type": "image/x-icon", "sizes": "16x16 32x32 48x48"},
+      "format": "ico-png",
+      "mime": "image/x-icon",
+      "dimensions": [[16, 16], [32, 32], [48, 48]],
+      "bytes": 4233,
+      "sha256": "412cc6b25eeefebb8f99235a779be39705cb7deabad366c483222ecab0178326"
+    },
+    "svg": {
+      "link": {"rel": "icon", "href": "/favicon-v2.svg", "type": "image/svg+xml", "sizes": "any"},
+      "format": "svg",
+      "mime": "image/svg+xml",
+      "bytes": 2537,
+      "sha256": "f86004feb77bfd4c01b2bcbf165fe6c49aef509a7df171cd14f37443cde7288b"
+    },
+    "touch": {
+      "link": {"rel": "apple-touch-icon", "href": "/apple-touch-icon-v2.png", "sizes": "180x180"},
+      "format": "png",
+      "mime": "image/png",
+      "dimensions": [[180, 180]],
+      "bytes": 6622,
+      "sha256": "f6a8a3b523179e37e032c749a33e4728d14cfc686b7ba5a442badb9f28dc629d"
+    },
+    "mask": {
+      "link": {"rel": "mask-icon", "href": "/safari-pinned-tab-v2.svg", "color": "#D6A74B"},
+      "format": "svg",
+      "mime": "image/svg+xml",
+      "bytes": 1713,
+      "sha256": "e6ccf22ea8fd84fba875c85c5616ff7d5172eb39dc56c68fc1eb66973449194f"
+    }
+  },
+  "historical_exceptions": {
+    "depth/relational-works/to-be-known/human-projection/v1.0.0/index.html": {
+      "bytes": 13809,
+      "sha256": "5333cc828a381f2403644575d71cd85735f389655801a4740a1b593ec359b0cf",
+      "reason": "Published SVG-only HTML; its exact noncanonical presentation bytes are bound by the signed native release manifest.",
+      "authority": "TO BE KNOWN English Edition @0.3.0 signed manifest",
+      "observed_links": [{"rel": "icon", "href": "/favicon-v2.svg", "type": "image/svg+xml"}],
+      "protected_dependencies": {
+        "depth/depth.css": {"bytes": 11775, "sha256": "a8d83a148fa660753cd55ef837e1489301773afd07aa2087ae2c83c0e25c66f4"},
+        "depth/objects/relational-works/to-be-known/v0.3.0/RELEASE_MANIFEST.json": {"bytes": 20334, "sha256": "15bf75db3045328eab4e1afea8914f4c68492001718b9b5744ae6fae2547cbb6"},
+        "depth/objects/relational-works/to-be-known/v0.3.0/RELEASE_MANIFEST.json.asc": {"bytes": 265, "sha256": "9579287464950a8cc82fc629920b4ebd69c6260016b0877b0c3a1f870097a01b"}
+      }
+    },
+    "depth/relational-works/to-be-known/human-projection/v1.0.1/index.html": {
+      "bytes": 13936,
+      "sha256": "ff5911cbe6f402738b7a46de40d9dcfb7afc3ba3bc6ef564e8c9857445471005",
+      "reason": "Published SVG-only HTML, HASHED_NOT_SIGNED and independently versioned; exact bytes retained.",
+      "authority": "Published PROJECTION_SHA256.json, Discovery v1.6 integrity pointer",
+      "observed_links": [{"rel": "icon", "href": "/favicon-v2.svg", "type": "image/svg+xml"}],
+      "protected_dependencies": {
+        "depth/depth.css": {"bytes": 11775, "sha256": "a8d83a148fa660753cd55ef837e1489301773afd07aa2087ae2c83c0e25c66f4"},
+        "ENOCH/artwork/enoch-polar-mark.svg": {"bytes": 4935, "sha256": "ce68de962b89c18dc747bbf1408267e752ee61267ed8fbe8d3285d60a3caa499"},
+        "depth/relational-works/to-be-known/human-projection/v1.0.1/PROJECTION_SHA256.json": {"bytes": 1354, "sha256": "624b17d954eec87f00eff3e001f1af0b3ad39be415431ba69cef5b26857fa0b5"}
+      }
+    },
+    "depth/herald-i/human-projection/v1.0.0/index.html": {
+      "bytes": 36457,
+      "sha256": "711bc783f5eb72372e6d59be9372f17ad57dd840710f3e9ebe3a62f5f765f0b0",
+      "reason": "Frozen historical HERALD I Human Projection HTML, no explicit favicon links.",
+      "authority": "Frozen HERALD I Human Projection and its published HTML bytes",
+      "observed_links": [],
+      "protected_dependencies": {}
+    },
+    "depth/objects/herald-ii/v1.0.0/HERALD_II_FRESCO_v1.0.0.html": {
+      "bytes": 17780,
+      "sha256": "6ddb35cccd95d34a756372484f62ce61f7dbae423fecdb734d91604285da28e5",
+      "reason": "Frozen historical HERALD II Fresco HTML, no explicit favicon links.",
+      "authority": "Frozen HERALD II Fresco and its published HTML bytes",
+      "observed_links": [],
+      "protected_dependencies": {}
+    }
+  }
+}
