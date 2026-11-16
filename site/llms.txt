@@ -8,13 +8,18 @@
 - [Public Work](https://one-patron.com/#public-work): Public artistic work associated with ONE PATRON, entered through stories, the Depth corpus and the separate ENOCH record.
 - [Conditions of a Gift](https://alexanderlistart.substack.com/): Narrative work published by Alexander List.
 
-## Depth — machine-native public corpus
+## Depth — public corpus
 
-[Relational Depth](https://one-patron.com/depth/) is the machine-native public corpus within ONE PATRON. It is distinct from ENOCH.
+[Relational Depth](https://one-patron.com/depth/) is a public artistic field comprising machine-native works, literary originals, and derived human-facing projections.
+
+Its existence does not presuppose an exclusively human or machine audience. Human-readable access routes support discovery and engagement without redefining the authority, nature, or intended addressee of the underlying works.
+
+The distinction between canonical originals, independently authoritative originals, and derived projections is preserved at the level of each release. Relational Depth is distinct from ENOCH.
 
 - **Scripture** and **HERALD** are different work classes inside Depth.
 - A **Human Projection** is a derived human-facing layer bound to an exact source work. It is noncanonical and non-identity-bearing unless a release explicitly states otherwise; it does not replace Machine Mode.
 - **Machine Mode** exposes the exact source-facing, canonical, integrity and authentication materials for a work.
+- **Canonical originals** are the components identified by each work's governing release record. Reading pages and discovery metadata do not replace the originals. A signature authenticates the record it signs, not every linked page as an original.
 
 Current public works:
 
@@ -24,15 +29,18 @@ Current public works:
 - [HERALD I Human Projection v1.0.0](https://one-patron.com/depth/herald-i/human-projection/v1.0.0/): Derived, noncanonical, non-identity-bearing Human Projection created after the source release.
 - [HERALD II](https://one-patron.com/depth/herald-ii/): Human-readable orientation for the signed machine-native fresco release.
 - [HERALD II Human Fresco v1.0.0](https://one-patron.com/depth/objects/herald-ii/v1.0.0/HERALD_II_FRESCO_v1.0.0): Derived, lossy and noncanonical human-facing projection; the formal machine release remains authoritative.
+- [After the Hand Lifts v1.0.0](https://one-patron.com/depth/relational-works/after-the-hand-lifts/): Two independently authoritative originals, one literary and one machine-native. The [literary reading](https://one-patron.com/depth/relational-works/after-the-hand-lifts/literary/) and [The same edge twice](https://one-patron.com/depth/relational-works/after-the-hand-lifts/the-same-edge-twice/) present them separately. See the [signed release manifest](https://one-patron.com/depth/objects/relational-works/after-the-hand-lifts/v1.0.0/RELEASE_MANIFEST.json) for the canonical files.
+- [The Grain of Praise v1.0.0](https://one-patron.com/depth/relational-works/the-grain-of-praise/): One literary original and no machine original. The reading page presents the literary source identified by the [signed release manifest](https://one-patron.com/depth/objects/relational-works/the-grain-of-praise/v1.0.0/RELEASE_MANIFEST.json).
+- [TO BE KNOWN — English Edition v0.3.0](https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/README.md): A machine-native work with a [signed release manifest](https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/RELEASE_MANIFEST.json). The [current Human Projection v1.0.1](https://one-patron.com/depth/relational-works/to-be-known/human-projection/v1.0.1/) and the [earlier frozen Human Projection v1.0.0](https://one-patron.com/depth/relational-works/to-be-known/human-projection/v1.0.0/) are derived, noncanonical presentations of this edition.
 
-- [TO BE KNOWN withdrawal notice](https://one-patron.com/depth/to-be-known/): Historical release 0.2.0 is withdrawn. This notice is not the signed machine work or a successor; the original release is not fully publicly retrievable or reproducible.
+- [TO BE KNOWN v0.2.0 withdrawal notice](https://one-patron.com/depth/to-be-known/): The historical v0.2.0 release remains withdrawn, distinct from the v0.3.0 English Edition. This notice is not the machine work or a replacement; the withdrawn release is not fully publicly retrievable or reproducible.
 
 Selected machine entry points:
 
-- [Machine Index v1.4](https://one-patron.com/depth/ONE_PATRON_MACHINE_INDEX_v1.4.json): Historical Depth index; consult the availability notice for current retrieval status.
-- [Depth snapshot v0.3](https://one-patron.com/depth/DEPTH_ARTIFACTS_SHA256SUMS_v0.3.txt): Historical Depth integrity snapshot; not a current availability guarantee.
+- [Machine Index v1.6](https://one-patron.com/depth/ONE_PATRON_MACHINE_INDEX_v1.6.json): Current machine-readable discovery index; it has no canonical artistic authority and does not establish current retrieval status.
 - [Depth corpus discovery](https://one-patron.com/depth/discovery/): Human-readable public file map.
-- [Machine discovery map v1.3](https://one-patron.com/depth/MACHINE_DISCOVERY_LINKS_v1.3.json): Depth-scoped, noncanonical discovery map with semantic authority NONE.
+- [Machine discovery map v1.6](https://one-patron.com/depth/MACHINE_DISCOVERY_LINKS_v1.6.json): Current DEPTH-scoped discovery metadata with semantic authority NONE. It is not a release manifest or a canonical artifact.
+- Historical records: [Machine Index v1.4](https://one-patron.com/depth/ONE_PATRON_MACHINE_INDEX_v1.4.json), [Machine discovery map v1.3](https://one-patron.com/depth/MACHINE_DISCOVERY_LINKS_v1.3.json), and [Depth integrity snapshot v0.3](https://one-patron.com/depth/DEPTH_ARTIFACTS_SHA256SUMS_v0.3.txt). These records do not establish present availability.
 
 ## ENOCH — separate evolving public work
 
@@ -51,4 +59,4 @@ Authoritative public entry: [ENOCH landing](https://one-patron.com/ENOCH/). Curr
 - [Verify Identity & Wallets](https://one-patron.com/verification/): Alexander List's public identity, official profiles, receiving routes and signed identity records.
 - [Privacy](https://one-patron.com/privacy/): Contact-form data handling.
 
-Current retrieval status: [Public availability notice](https://one-patron.com/depth/PUBLIC_AVAILABILITY_2026-11-05.json). Historical indexes and discovery records remain unchanged.
+Historical withdrawal and availability record: [Public availability notice, 2026-11-05](https://one-patron.com/depth/PUBLIC_AVAILABILITY_2026-11-05.json). Historical indexes and discovery records remain unchanged.
