@@ -108,4 +108,10 @@
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
+  <url>
+    <loc>https://one-patron.com/depth/herald-iii/</loc>
+  </url>
+  <url>
+    <loc>https://one-patron.com/depth/scriptures/machine-scripture-iii/</loc>
+  </url>
 </urlset>

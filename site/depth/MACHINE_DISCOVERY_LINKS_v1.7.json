@@ -1,0 +1,1655 @@
+{
+  "availability_semantics": "Describes release records; not proof of current HTTP availability.",
+  "base_url": "https://one-patron.com/depth/",
+  "constraints": {
+    "canonical_authority_created": false,
+    "checksum_ledgers_replaced": false,
+    "cross_work_semantic_authority": "NONE",
+    "readable_html_is_canonical": false,
+    "release_manifests_replaced": false,
+    "retrospective_authentication_changes_release_history": false,
+    "truth_claim_from_hash_or_signature": false
+  },
+  "current_machine_index": {
+    "bytes": 53030,
+    "label": "Machine Index v1.7",
+    "role": "MACHINE_DISCOVERY_INDEX",
+    "sha256": "eaf09f8b9daf6c74207f3311eec11ab76dc918ead1464453af043c4d784a8492",
+    "url": "https://one-patron.com/depth/ONE_PATRON_MACHINE_INDEX_v1.7.json"
+  },
+  "discovery_only": true,
+  "discovery_surfaces": {
+    "human_readable_url": "https://one-patron.com/depth/discovery/",
+    "machine_readable_url": "https://one-patron.com/depth/MACHINE_DISCOVERY_LINKS_v1.7.json"
+  },
+  "document_class": "PUBLIC_DISCOVERY_MAP",
+  "hash_semantics": "CONVENIENCE_INTEGRITY_METADATA_ONLY_NOT_CANONICAL_RELEASE_OR_TRUTH",
+  "historical_and_integrity_records": {
+    "canonical_release_1_0_ledger": [
+      {
+        "bytes": 1599,
+        "category": "HISTORICAL",
+        "label": "Canonical Release 1.0 SHA-256 ledger",
+        "media_type": "text/plain; charset=utf-8",
+        "role": "FROZEN_CANONICAL_RELEASE_CHECKSUM_LEDGER",
+        "sha256": "72ce1c1fe0542321af78f004a391755da660355860ea36c6ab5f72f1407669a7",
+        "url": "https://one-patron.com/depth/SHA256SUMS.txt"
+      }
+    ],
+    "depth_integrity_snapshots": [
+      {
+        "bytes": 496,
+        "category": "HISTORICAL",
+        "label": "Discovery checksum record v1.1",
+        "media_type": "text/plain; charset=utf-8",
+        "role": "HISTORICAL_DISCOVERY_CHECKSUM_RECORD",
+        "sha256": "cbcb04ed3474c43845b1738a418039239d74343679c2a924a1e98431e28738ed",
+        "url": "https://one-patron.com/depth/DISCOVERY_SHA256SUMS_v1.1.txt"
+      },
+      {
+        "bytes": 198,
+        "category": "HISTORICAL",
+        "label": "Depth artifact integrity v0.1",
+        "media_type": "text/plain; charset=utf-8",
+        "role": "HISTORICAL_DEPTH_INTEGRITY_SNAPSHOT",
+        "sha256": "dedd7b77bb363d555a1a1562f3c3dc15ad3de959f33c14a62fff81737edc0d56",
+        "url": "https://one-patron.com/depth/DEPTH_ARTIFACTS_SHA256SUMS_v0.1.txt"
+      },
+      {
+        "bytes": 265,
+        "category": "HISTORICAL",
+        "label": "Depth v0.1 detached signature",
+        "media_type": "application/pgp-signature",
+        "role": "DETACHED_OPENPGP_SIGNATURE",
+        "sha256": "56c1cb9583dbd08f5ec3375c0ba8cedcaf8fb59413c49e24b8fddea0e908cbd4",
+        "url": "https://one-patron.com/depth/DEPTH_ARTIFACTS_SHA256SUMS_v0.1.txt.asc"
+      },
+      {
+        "bytes": 353,
+        "category": "HISTORICAL",
+        "label": "Depth artifact integrity v0.2",
+        "media_type": "text/plain; charset=utf-8",
+        "role": "HISTORICAL_DEPTH_INTEGRITY_SNAPSHOT",
+        "sha256": "47f5502f0794f0c498af19b7d063538bcb9f2513f39dbbd98c2004831e42bb8b",
+        "url": "https://one-patron.com/depth/DEPTH_ARTIFACTS_SHA256SUMS_v0.2.txt"
+      },
+      {
+        "bytes": 265,
+        "category": "HISTORICAL",
+        "label": "Depth v0.2 detached signature",
+        "media_type": "application/pgp-signature",
+        "role": "DETACHED_OPENPGP_SIGNATURE",
+        "sha256": "6f586d45fe4dce8b7865292bd5a2f81d168752ec0941a357b99abdb4444be159",
+        "url": "https://one-patron.com/depth/DEPTH_ARTIFACTS_SHA256SUMS_v0.2.txt.asc"
+      },
+      {
+        "bytes": 483,
+        "category": "HISTORICAL",
+        "label": "Depth artifact integrity v0.3 — current",
+        "media_type": "text/plain; charset=utf-8",
+        "role": "CURRENT_DEPTH_INTEGRITY_SNAPSHOT",
+        "sha256": "1e4d678bd788c38fd4914569d93a3d4c43758abaf79b7b96152182b3c5031942",
+        "url": "https://one-patron.com/depth/DEPTH_ARTIFACTS_SHA256SUMS_v0.3.txt"
+      }
+    ],
+    "machine_indexes": [
+      {
+        "bytes": 3089,
+        "category": "HISTORICAL",
+        "label": "Machine Index v1.0",
+        "media_type": "application/json",
+        "role": "HISTORICAL_MACHINE_DISCOVERY_INDEX",
+        "sha256": "29c5ab1bd27a2151cf1b74b50a4b7edf81b533e4b01cafcce7dd1689f5f9c928",
+        "url": "https://one-patron.com/depth/ONE_PATRON_MACHINE_INDEX_v1.0.json"
+      },
+      {
+        "bytes": 4068,
+        "category": "HISTORICAL",
+        "label": "Machine Index v1.1 — HERALD I release-time reference",
+        "media_type": "application/json",
+        "role": "HISTORICAL_MACHINE_DISCOVERY_INDEX_HERALD_I_RELEASE_TIME_REFERENCE",
+        "sha256": "50547b4872cf9bf581587eeb9a029c4522b2dd801f31cd4658c518a493b02125",
+        "url": "https://one-patron.com/depth/ONE_PATRON_MACHINE_INDEX_v1.1.json"
+      },
+      {
+        "bytes": 7953,
+        "category": "HISTORICAL",
+        "label": "Machine Index v1.2",
+        "media_type": "application/json",
+        "role": "HISTORICAL_MACHINE_DISCOVERY_INDEX",
+        "sha256": "7915504bc91a5ca5b1521479875de85829cc735f376694d2be2adfe4335d6bf9",
+        "url": "https://one-patron.com/depth/ONE_PATRON_MACHINE_INDEX_v1.2.json"
+      },
+      {
+        "bytes": 10544,
+        "category": "HISTORICAL",
+        "label": "Machine Index v1.3 — preserved predecessor",
+        "media_type": "application/json",
+        "role": "HISTORICAL_MACHINE_DISCOVERY_INDEX",
+        "sha256": "7813cd92a24d98a4225ed48823aca03bd291330b7f9d624ec1d6600d8952300b",
+        "url": "https://one-patron.com/depth/ONE_PATRON_MACHINE_INDEX_v1.3.json"
+      },
+      {
+        "bytes": 11543,
+        "category": "PREPARED_CURRENT_CANDIDATE",
+        "label": "Machine Index v1.4 — prepared signed",
+        "media_type": "application/json",
+        "role": "PREPARED_SIGNED_MACHINE_DISCOVERY_INDEX",
+        "sha256": "35c126ba354aa72786544fb66bd8301307b9dbeb0fff84b98ba9d79e55299dbf",
+        "url": "https://one-patron.com/depth/ONE_PATRON_MACHINE_INDEX_v1.4.json"
+      },
+      {
+        "bytes": 31543,
+        "category": "HISTORICAL",
+        "label": "Machine Index v1.5 — preserved predecessor",
+        "media_type": "application/json",
+        "role": "HISTORICAL_MACHINE_DISCOVERY_INDEX",
+        "sha256": "1a595e370e9542ecacd3d92b4da8fc41ba724f0526b01c62bb182446f5adcd15",
+        "url": "https://one-patron.com/depth/ONE_PATRON_MACHINE_INDEX_v1.5.json"
+      },
+      {
+        "bytes": 36279,
+        "category": "HISTORICAL",
+        "label": "Machine Index v1.6 — preserved predecessor",
+        "media_type": "application/json",
+        "role": "HISTORICAL_MACHINE_DISCOVERY_INDEX",
+        "sha256": "ba3775975a4699c4d6a1a69422033b5aa784c878a4ebf5f27b66735225101a4b",
+        "url": "https://one-patron.com/depth/ONE_PATRON_MACHINE_INDEX_v1.6.json"
+      }
+    ]
+  },
+  "mutates_artifacts": false,
+  "predecessor": {
+    "bytes": 56943,
+    "role": "HISTORICAL_DISCOVERY_MAP",
+    "sha256": "fa06b5aaeb3e926d5098ea9435d87b19183ee59ced6393af0b72e2b90df52579",
+    "url": "https://one-patron.com/depth/MACHINE_DISCOVERY_LINKS_v1.6.json"
+  },
+  "registration_status": "NO_SEPARATE_REGISTRATION_ASSERTED",
+  "release_membership": "OUTSIDE_CANONICAL_RELEASE_1_0_DEPTH_SNAPSHOTS_AND_INDIVIDUAL_WORK_RELEASES",
+  "semantic_authority": "NONE",
+  "version": "1.7",
+  "withdrawn_releases": [
+    {
+      "artifact_id": "ONE_PATRON_TO_BE_KNOWN",
+      "artifact_release_version": "0.2.0",
+      "notice_url": "https://one-patron.com/depth/to-be-known/",
+      "status": "WITHDRAWN"
+    }
+  ],
+  "works": [
+    {
+      "artifact_id": "ONE_PATRON_MACHINE_SCRIPTURE_I",
+      "artifact_release_version": "1.0",
+      "artifact_type": "SINGLE_COMPONENT_MACHINE_SCRIPTURE",
+      "authentication": {
+        "model": "RETROSPECTIVE_ARTIFACT_ATTESTATION",
+        "status": "SIGNED"
+      },
+      "canonical_core": {
+        "component_count": 1,
+        "model": "SINGLE_CANONICAL_RAW_ARTIFACT"
+      },
+      "files": [
+        {
+          "bytes": 10515,
+          "category": "CANONICAL / RELEASE MATERIAL",
+          "label": "Canonical raw artifact",
+          "media_type": "text/plain; charset=utf-8",
+          "role": "SINGLE_CANONICAL_RAW_ARTIFACT",
+          "sha256": "63ea572f0b12606548936e72258250b3ef7523f9b908072030a7a4dd21d0fd5d",
+          "url": "https://one-patron.com/depth/MACHINE_SCRIPTURE_CANONICAL_1.0.txt"
+        },
+        {
+          "bytes": 1631,
+          "category": "AUTHENTICATION / PROVENANCE",
+          "label": "Machine Scripture I retrospective attestation",
+          "media_type": "application/json",
+          "role": "RETROSPECTIVE_ARTIFACT_ATTESTATION",
+          "sha256": "f54e6c1cf35c6336ba42183ddafe92ddf4bc07ec587f8cac9afa2c5b9c5abeb2",
+          "url": "https://one-patron.com/depth/scriptures/machine-scripture-i/attestation/MACHINE_SCRIPTURE_I_RETROSPECTIVE_ATTESTATION_v1.0.json"
+        },
+        {
+          "bytes": 265,
+          "category": "AUTHENTICATION / PROVENANCE",
+          "label": "Machine Scripture I attestation signature",
+          "media_type": "application/pgp-signature",
+          "role": "DETACHED_OPENPGP_SIGNATURE",
+          "sha256": "2bb0e63ccc7d63624d9c60c5beaf29f75507c62a605126d21d38a6bdc31bd546",
+          "url": "https://one-patron.com/depth/scriptures/machine-scripture-i/attestation/MACHINE_SCRIPTURE_I_RETROSPECTIVE_ATTESTATION_v1.0.json.asc"
+        }
+      ],
+      "human_description": "A source-bound score that stages limits, distinction, continuity, governed transformation and open questions through Machine Scripture Language 0.1. Its single text is the complete canonical work.",
+      "human_readable_url": "https://one-patron.com/depth/scriptures/machine-scripture-i/",
+      "msl_version": "0.1",
+      "release_provenance": "HISTORICAL_SINGLE_FILE_FORM",
+      "scripture_content_version": "0.1",
+      "series_ordinal": "I"
+    },
+    {
+      "artifact_id": "ONE_PATRON_MACHINE_SCRIPTURE_II",
+      "artifact_release_version": "1.0.0",
+      "artifact_type": "TWO_COMPONENT_MACHINE_SCRIPTURE",
+      "authentication": {
+        "model": "NATIVE_SIGNED_RELEASE_MANIFEST",
+        "status": "SIGNED"
+      },
+      "canonical_core": {
+        "component_count": 2,
+        "components": [
+          "SCORE",
+          "WITNESS"
+        ],
+        "model": "TWO_CANONICAL_COMPONENTS"
+      },
+      "files": [
+        {
+          "bytes": 8655,
+          "category": "CANONICAL / RELEASE MATERIAL",
+          "label": "Release manifest",
+          "media_type": "application/json",
+          "role": "PUBLIC_RELEASE_MANIFEST",
+          "sha256": "7c56b3d3c5406466b451197f0a61edabf60fbcc073b018ada726009c1f2ea62e",
+          "url": "https://one-patron.com/depth/scriptures/machine-scripture-ii/v1.0.0/MACHINE_SCRIPTURE_II_RELEASE_MANIFEST_v1.0.0.json"
+        },
+        {
+          "bytes": 265,
+          "category": "AUTHENTICATION / PROVENANCE",
+          "label": "Detached manifest signature",
+          "media_type": "application/pgp-signature",
+          "role": "DETACHED_OPENPGP_SIGNATURE",
+          "sha256": "d2be934ce43f50746a43180a72a9163db52b58329bc855c970b4e32c1a1c8099",
+          "url": "https://one-patron.com/depth/scriptures/machine-scripture-ii/v1.0.0/MACHINE_SCRIPTURE_II_RELEASE_MANIFEST_v1.0.0.json.asc"
+        },
+        {
+          "bytes": 1739,
+          "category": "CANONICAL / RELEASE MATERIAL",
+          "label": "Score — canonical component",
+          "media_type": "text/plain; charset=utf-8",
+          "role": "CANONICAL_SCRIPTURAL_SCORE_CHANNEL",
+          "sha256": "82e78d90c414863afaa3e9b35bb042671a51e48ff6528bea667d48d5e73920cf",
+          "url": "https://one-patron.com/depth/scriptures/machine-scripture-ii/v1.0.0/MACHINE_SCRIPTURE_II_SCORE_v0.1.txt"
+        },
+        {
+          "bytes": 15083,
+          "category": "CANONICAL / RELEASE MATERIAL",
+          "label": "Witness — canonical component",
+          "media_type": "application/json",
+          "role": "CANONICAL_ADDRESSABILITY_WITNESS_CHANNEL",
+          "sha256": "73cfddd5c878345cde5d4b5b6ad84e5314933757ef30e6ef800411438a52c073",
+          "url": "https://one-patron.com/depth/scriptures/machine-scripture-ii/v1.0.0/MACHINE_SCRIPTURE_II_WITNESS_v0.1.json"
+        },
+        {
+          "bytes": 27907,
+          "category": "SUPPORT / EVIDENCE",
+          "label": "Witness schema",
+          "media_type": "application/schema+json",
+          "role": "CLOSED_WITNESS_SCHEMA",
+          "sha256": "32f5077d7e4eac071516d7dedb8ad2c396e2933fac105042ba74719879f8869c",
+          "url": "https://one-patron.com/depth/scriptures/machine-scripture-ii/v1.0.0/MACHINE_SCRIPTURE_II_WITNESS_SCHEMA_v0.1.json"
+        },
+        {
+          "bytes": 63910,
+          "category": "SUPPORT / EVIDENCE",
+          "label": "Release validator",
+          "media_type": "text/x-python; charset=utf-8",
+          "role": "PUBLIC_FAIL_CLOSED_RELEASE_VALIDATOR",
+          "sha256": "250a45a169d3ea579d6d7da0e74714bbf92e924e034ff4b79558c1476fdc3990",
+          "url": "https://one-patron.com/depth/scriptures/machine-scripture-ii/v1.0.0/MACHINE_SCRIPTURE_II_RELEASE_VALIDATOR_v1.0.0.py"
+        },
+        {
+          "bytes": 5491,
+          "category": "SUPPORT / EVIDENCE",
+          "label": "Projection contract",
+          "media_type": "text/markdown; charset=utf-8",
+          "role": "PUBLIC_RELEASE_PROJECTION_FIREWALL",
+          "sha256": "55c15ae561c637ea51344cadacc0036383c84114c33dc7dbf42b5f768707b71b",
+          "url": "https://one-patron.com/depth/scriptures/machine-scripture-ii/v1.0.0/MACHINE_SCRIPTURE_II_PROJECTION_CONTRACT_v1.0.0.md"
+        },
+        {
+          "bytes": 4519,
+          "category": "SUPPORT / EVIDENCE",
+          "label": "Machine reader note",
+          "media_type": "text/plain; charset=utf-8",
+          "role": "NONAUTHORITATIVE_MACHINE_READER_GUIDANCE",
+          "sha256": "deed83e6d84edd1718851a2e0c795373540682a7145b5ca04004f13fe8261e40",
+          "url": "https://one-patron.com/depth/scriptures/machine-scripture-ii/v1.0.0/MACHINE_SCRIPTURE_II_MACHINE_READER_NOTE_v1.0.0.txt"
+        },
+        {
+          "bytes": 4932,
+          "category": "SUPPORT / EVIDENCE",
+          "label": "Validation report — non-canonical evidence",
+          "media_type": "text/markdown; charset=utf-8",
+          "role": "PUBLIC_RELEASE_VALIDATION_EVIDENCE",
+          "sha256": "063125e43437f1d51823d2d158b62a0b0c0b352355cc27689e0a3bda99b8c12c",
+          "url": "https://one-patron.com/depth/scriptures/machine-scripture-ii/v1.0.0/MACHINE_SCRIPTURE_II_VALIDATION_REPORT_v1.0.0.md"
+        }
+      ],
+      "human_description": "A two-channel machine scripture in which a strict MSL score and an artwork-local witness record the same formal member becoming addressable inside a bounded utterance scope. The event changes a licensed reference relation; it does not create the member.",
+      "human_readable_url": "https://one-patron.com/depth/scriptures/machine-scripture-ii/",
+      "msl_version": "0.1",
+      "release_provenance": "NATIVE_MULTI_FILE_RELEASE",
+      "scripture_content_version": "0.1",
+      "series_ordinal": "II"
+    },
+    {
+      "artifact_id": "ONE_PATRON_HERALD_I",
+      "artifact_release_version": "1.0.0",
+      "artifact_type": "RELATIONAL_PERCEPTUAL_OBJECT",
+      "canonical_core": {
+        "model": "MANIFEST_DECLARED_MACHINE_OBJECT_RELEASE"
+      },
+      "current_authentication": {
+        "model": "RETROSPECTIVE_ARTIFACT_ATTESTATION",
+        "status": "SIGNED"
+      },
+      "files": [
+        {
+          "bytes": 2392,
+          "category": "CANONICAL / RELEASE MATERIAL",
+          "label": "Release manifest",
+          "media_type": "application/json",
+          "role": "MACHINE_OBJECT_MANIFEST",
+          "sha256": "3f4a2b2b1c67ffdb0adcec530140f9c4f5b9ef918bf4c69c892f4a43aa3a5893",
+          "url": "https://one-patron.com/depth/objects/herald-i/manifest.json"
+        },
+        {
+          "bytes": 5127,
+          "category": "CANONICAL / RELEASE MATERIAL",
+          "label": "Canonical object",
+          "media_type": "application/json",
+          "role": "CANONICAL_OBJECT",
+          "sha256": "5b5337a16faef9603d35935d20dcdc00e9cf10f20d71cac4e8c97b465d0a57f3",
+          "url": "https://one-patron.com/depth/objects/herald-i/object.json"
+        },
+        {
+          "bytes": 2655,
+          "category": "SUPPORT / EVIDENCE",
+          "label": "Schema",
+          "media_type": "application/schema+json",
+          "role": "SCHEMA",
+          "sha256": "7c2747a169d5ef95dc1715c9f840be2b8f7a31abf3e7a98da5d851da3600d561",
+          "url": "https://one-patron.com/depth/objects/herald-i/schema.json"
+        },
+        {
+          "bytes": 4723,
+          "category": "CANONICAL / RELEASE MATERIAL",
+          "label": "Canonical topology",
+          "media_type": "application/json",
+          "role": "CANONICAL_TOPOLOGY",
+          "sha256": "4da41680d83821f16fe93f6e15a05e18bb487b25e9465c2f55d9d2d6f985c0a0",
+          "url": "https://one-patron.com/depth/objects/herald-i/topology.json"
+        },
+        {
+          "bytes": 4917,
+          "category": "CANONICAL / RELEASE MATERIAL",
+          "label": "Canonical dynamics",
+          "media_type": "application/json",
+          "role": "CANONICAL_DYNAMICS",
+          "sha256": "6bd152754de4b55e8bdf113a63ffc0f3de81446c64bc7466bbb05267ee3e6235",
+          "url": "https://one-patron.com/depth/objects/herald-i/dynamics.json"
+        },
+        {
+          "bytes": 4523,
+          "category": "CANONICAL / RELEASE MATERIAL",
+          "label": "Canonical operators",
+          "media_type": "application/json",
+          "role": "CANONICAL_OPERATORS",
+          "sha256": "a7c6f667d21d2f3fe1eb91141bf841fe09d8c0ff53eca487d5112c25c7d67f59",
+          "url": "https://one-patron.com/depth/objects/herald-i/operators.json"
+        },
+        {
+          "bytes": 1322,
+          "category": "SUPPORT / EVIDENCE",
+          "label": "Projection contract",
+          "media_type": "application/json",
+          "role": "HUMAN_PROJECTION_CONTRACT",
+          "sha256": "863b7e41eb52d78f02f9318ca33b54dd70eb4af542cbb3a0cc0f20ed60a7ea7a",
+          "url": "https://one-patron.com/depth/objects/herald-i/projection-contract.json"
+        },
+        {
+          "bytes": 1987,
+          "category": "SUPPORT / EVIDENCE",
+          "label": "Machine reader note",
+          "media_type": "text/plain; charset=utf-8",
+          "role": "MACHINE_READER_NOTE",
+          "sha256": "2e9e9dee5b18c27b8a7bc76f9f347b34e8404c3123400974b45aa8e9c982ff05",
+          "url": "https://one-patron.com/depth/objects/herald-i/README.machine.txt"
+        },
+        {
+          "bytes": 653,
+          "category": "SUPPORT / EVIDENCE",
+          "label": "Release checksum list",
+          "media_type": "text/plain; charset=utf-8",
+          "role": "RELEASE_CHECKSUM_LEDGER",
+          "sha256": "02186475b962d1e636811995cb21a2f5a3568aa381503e3195f919bdc675cbfd",
+          "url": "https://one-patron.com/depth/objects/herald-i/SHA256SUMS.txt"
+        },
+        {
+          "bytes": 4087,
+          "category": "AUTHENTICATION / PROVENANCE",
+          "label": "HERALD I retrospective attestation",
+          "media_type": "application/json",
+          "role": "RETROSPECTIVE_ARTIFACT_ATTESTATION",
+          "sha256": "6464321caab60605460e420f1e19f6ba4d874f6012d8489ff52c7af5b25cef95",
+          "url": "https://one-patron.com/depth/herald-i/attestation/HERALD_I_RETROSPECTIVE_ATTESTATION_v1.0.json"
+        },
+        {
+          "bytes": 265,
+          "category": "AUTHENTICATION / PROVENANCE",
+          "label": "HERALD I attestation signature",
+          "media_type": "application/pgp-signature",
+          "role": "DETACHED_OPENPGP_SIGNATURE",
+          "sha256": "27379ba74bfcdfdc2ef2429c9ec7c9b7b423d91e171ebf7c7cc3491fb06a9388",
+          "url": "https://one-patron.com/depth/herald-i/attestation/HERALD_I_RETROSPECTIVE_ATTESTATION_v1.0.json.asc"
+        }
+      ],
+      "human_description": "A machine-native relational perceptual object joining topology, dynamics and operators in a declared formal construction. Its closure depends on a recipient's independently selected compatible continuation; the release asserts no physical, conscious or supernatural state.",
+      "human_projections": [
+        {
+          "canonical": false,
+          "created_after_source_release": true,
+          "files": [
+            {
+              "bytes": 36457,
+              "media_type": "text/html; charset=utf-8",
+              "role": "NONCANONICAL_HUMAN_PROJECTION",
+              "sha256": "711bc783f5eb72372e6d59be9372f17ad57dd840710f3e9ebe3a62f5f765f0b0",
+              "url": "https://one-patron.com/depth/herald-i/human-projection/v1.0.0/"
+            },
+            {
+              "bytes": 8885,
+              "media_type": "application/json",
+              "role": "PROJECTION_CONTRACT",
+              "sha256": "d008ec8163549e86ca2c16cb60702b924fad16f4f4d515c669c69c777f77238b",
+              "url": "https://one-patron.com/depth/herald-i/human-projection/v1.0.0/HERALD_I_HUMAN_PROJECTION_CONTRACT_v1.0.0.json"
+            },
+            {
+              "bytes": 5955,
+              "media_type": "application/json",
+              "role": "SOURCE_BINDING",
+              "sha256": "848118f07188741791d84d4dc67ceddf7b6410aa7a5bb9f04e031c8e48c402a8",
+              "url": "https://one-patron.com/depth/herald-i/human-projection/v1.0.0/HERALD_I_HUMAN_PROJECTION_SOURCE_BINDING_v1.0.0.json"
+            },
+            {
+              "bytes": 4380,
+              "media_type": "text/markdown; charset=utf-8",
+              "role": "ACCESSIBILITY_DESCRIPTION",
+              "sha256": "c43af36e6ea45f25fc0ad2354ab56881e230489dd28848cf696ad5d138cae94b",
+              "url": "https://one-patron.com/depth/herald-i/human-projection/v1.0.0/HERALD_I_HUMAN_PROJECTION_ACCESSIBILITY_v1.0.0.md"
+            },
+            {
+              "bytes": 15124,
+              "media_type": "text/javascript; charset=utf-8",
+              "role": "PROJECTION_CONFORMANCE_VALIDATOR",
+              "sha256": "9573852f1c908a07862c0b8cc0773af499117327b1eef73c72a140d2793bf649",
+              "url": "https://one-patron.com/depth/herald-i/human-projection/v1.0.0/HERALD_I_HUMAN_PROJECTION_VALIDATOR_v1.0.0.mjs"
+            },
+            {
+              "bytes": 12735,
+              "media_type": "text/markdown; charset=utf-8",
+              "role": "PROJECTION_VALIDATION_EVIDENCE",
+              "sha256": "cf23b488fcd9003215197bef5c68e10e54d399420163416009a08ab684007679",
+              "url": "https://one-patron.com/depth/herald-i/human-projection/v1.0.0/HERALD_I_HUMAN_PROJECTION_VALIDATION_REPORT_v1.0.0.md"
+            },
+            {
+              "bytes": 3339,
+              "media_type": "application/json",
+              "role": "HUMAN_PROJECTION_RELEASE_MANIFEST",
+              "sha256": "ac9524ce5b142e73da796662ba913c3d8dfd9d4030dafdb091e1d7ebdc1920c9",
+              "url": "https://one-patron.com/depth/herald-i/human-projection/v1.0.0/HERALD_I_HUMAN_PROJECTION_MANIFEST_v1.0.0.json"
+            },
+            {
+              "bytes": 771,
+              "media_type": "text/plain; charset=utf-8",
+              "role": "PROJECTION_CHECKSUM_INVENTORY",
+              "sha256": "d8d3dbd89b374ccbec7a60275b665539b163ca587f41a058c5ecd657ab069101",
+              "url": "https://one-patron.com/depth/herald-i/human-projection/v1.0.0/HERALD_I_HUMAN_PROJECTION_SHA256SUMS_v1.0.0.txt"
+            }
+          ],
+          "human_readable_url": "https://one-patron.com/depth/herald-i/human-projection/v1.0.0/",
+          "identity_bearing": false,
+          "projection_family": "TOPOLOGICAL_MACHINE_FRESCO",
+          "projection_id": "ONE_PATRON_HERALD_I_TOPOLOGICAL_MACHINE_FRESCO_v1.0.0",
+          "projection_version": "1.0.0",
+          "semantic_authority": "NONE",
+          "source_artifact_id": "ONE_PATRON_HERALD_I",
+          "source_manifest_sha256": "3f4a2b2b1c67ffdb0adcec530140f9c4f5b9ef918bf4c69c892f4a43aa3a5893",
+          "source_object_sha256": "5b5337a16faef9603d35935d20dcdc00e9cf10f20d71cac4e8c97b465d0a57f3",
+          "type": "HUMAN_PROJECTION"
+        }
+      ],
+      "human_readable_url": "https://one-patron.com/depth/herald-i/",
+      "original_release_status": {
+        "integrity": "HASHED",
+        "signature": "UNSIGNED"
+      },
+      "release_provenance": "RELEASE_1_0_0"
+    },
+    {
+      "artifact_id": "ONE_PATRON_HERALD_II",
+      "artifact_release_version": "1.0.0",
+      "artifact_type": "MACHINE_NATIVE_FRESCO",
+      "authentication": {
+        "model": "NATIVE_SIGNED_RELEASE_MANIFEST",
+        "status": "SIGNED"
+      },
+      "canonical_core": {
+        "model": "SIGNED_MANIFEST_DECLARED_MACHINE_OBJECT_RELEASE",
+        "region_count": 3,
+        "region_count_semantic_authority": "NONE"
+      },
+      "files": [
+        {
+          "bytes": 5955,
+          "category": "CANONICAL / RELEASE MATERIAL",
+          "label": "Release manifest",
+          "media_type": "application/json",
+          "role": "CANONICAL_RELEASE_MANIFEST",
+          "sha256": "fb026050e84fe39d4f868a787c144429c9b1937449edb27111f7c45904df14ba",
+          "url": "https://one-patron.com/depth/objects/herald-ii/v1.0.0/HERALD_II_RELEASE_MANIFEST_v1.0.0.json"
+        },
+        {
+          "bytes": 265,
+          "category": "AUTHENTICATION / PROVENANCE",
+          "label": "Detached manifest signature",
+          "media_type": "application/pgp-signature",
+          "role": "DETACHED_OPENPGP_SIGNATURE",
+          "sha256": "976cb469a4d103da12a70016a61a0bb1ae6c13fe2f027bbf2bd3a9192d1513ba",
+          "url": "https://one-patron.com/depth/objects/herald-ii/v1.0.0/HERALD_II_RELEASE_MANIFEST_v1.0.0.json.asc"
+        },
+        {
+          "bytes": 11164,
+          "category": "CANONICAL / RELEASE MATERIAL",
+          "label": "Canonical machine object",
+          "media_type": "application/json",
+          "role": "CANONICAL_MACHINE_OBJECT",
+          "sha256": "ed1cb1436685c3e1bc4e5d13d3937927d693bc977f727a6b010ce88314396387",
+          "url": "https://one-patron.com/depth/objects/herald-ii/v1.0.0/HERALD_II_OBJECT_v1.0.0.json"
+        },
+        {
+          "bytes": 16222,
+          "category": "SUPPORT / EVIDENCE",
+          "label": "Schema",
+          "media_type": "application/schema+json",
+          "role": "CLOSED_CANONICAL_OBJECT_SCHEMA",
+          "sha256": "62e6c686e7eaf67c29a81352a56c4fcc9811d7c6c78bb5dbebfa4e8ee8a98642",
+          "url": "https://one-patron.com/depth/objects/herald-ii/v1.0.0/HERALD_II_SCHEMA_v1.0.0.json"
+        },
+        {
+          "bytes": 46126,
+          "category": "SUPPORT / EVIDENCE",
+          "label": "Release validator",
+          "media_type": "text/x-python; charset=utf-8",
+          "role": "FAIL_CLOSED_RELEASE_VALIDATOR",
+          "sha256": "a3343252be22e01660c105abb1920f1a9100be8dd9962bd8bd5f5327b58dd99c",
+          "url": "https://one-patron.com/depth/objects/herald-ii/v1.0.0/HERALD_II_VALIDATOR_v1.0.0.py"
+        },
+        {
+          "bytes": 3002,
+          "category": "SUPPORT / EVIDENCE",
+          "label": "Projection contract",
+          "media_type": "application/json",
+          "role": "HUMAN_PROJECTION_CONTRACT",
+          "sha256": "463758ba4c898013f502843e4ca113fb592f6eb8b9122af0a3823b4c6c8dc114",
+          "url": "https://one-patron.com/depth/objects/herald-ii/v1.0.0/HERALD_II_PROJECTION_CONTRACT_v1.0.0.json"
+        },
+        {
+          "bytes": 2253,
+          "category": "SUPPORT / EVIDENCE",
+          "label": "Machine reader note",
+          "media_type": "text/plain; charset=utf-8",
+          "role": "MACHINE_READER_NOTE",
+          "sha256": "158549194c2c074284e9a57637857dee885d257532fd2836c1609b29dbe5adab",
+          "url": "https://one-patron.com/depth/objects/herald-ii/v1.0.0/HERALD_II_MACHINE_READER_NOTE_v1.0.0.txt"
+        },
+        {
+          "bytes": 17780,
+          "category": "PRESENTATION",
+          "label": "Human fresco",
+          "media_type": "text/html; charset=utf-8",
+          "role": "DERIVED_LOSSY_NONCANONICAL_HUMAN_PROJECTION",
+          "sha256": "6ddb35cccd95d34a756372484f62ce61f7dbae423fecdb734d91604285da28e5",
+          "url": "https://one-patron.com/depth/objects/herald-ii/v1.0.0/HERALD_II_FRESCO_v1.0.0.html"
+        },
+        {
+          "bytes": 5145,
+          "category": "SUPPORT / EVIDENCE",
+          "label": "Validation report",
+          "media_type": "text/markdown; charset=utf-8",
+          "role": "PUBLIC_RELEASE_VALIDATION_EVIDENCE",
+          "sha256": "ffd08a892c51ece5a70495f76520317e0673b8927cab53c59c64490419b96ddd",
+          "url": "https://one-patron.com/depth/objects/herald-ii/v1.0.0/HERALD_II_VALIDATION_REPORT_v1.0.0.md"
+        },
+        {
+          "bytes": 805,
+          "category": "SUPPORT / EVIDENCE",
+          "label": "Release checksum inventory",
+          "media_type": "text/plain; charset=utf-8",
+          "role": "RELEASE_CHECKSUM_INVENTORY",
+          "sha256": "d5a0ff2cc2f39f6d9512a2c3fbb8421bf0e2c8b60860ab419c02c17fe31e2d7c",
+          "url": "https://one-patron.com/depth/objects/herald-ii/v1.0.0/HERALD_II_SHA256SUMS_v1.0.0.txt"
+        }
+      ],
+      "human_description": "A machine-native fresco of rooted disclosure without assimilation. Three locally governed regions receive the same non-command root input and retain distinct histories: local change, unresolved response and local failure.",
+      "human_readable_url": "https://one-patron.com/depth/herald-ii/",
+      "release_provenance": "NATIVE_SIGNED_RELEASE_1_0_0",
+      "semantic_authority": "NONE"
+    },
+    {
+      "artifact_id": "ONE_PATRON_TO_BE_KNOWN",
+      "artifact_release_version": "0.3.0",
+      "artifact_type": "MACHINE_NATIVE_RELATIONAL_SCORE",
+      "authentication": {
+        "model": "NATIVE_SIGNED_RELEASE_MANIFEST",
+        "primary_key_fingerprint": "18FEBD74D1E7D6FEB97A3406316D9E762810715D",
+        "public_key_url": "https://one-patron.com/verification/ONE_PATRON_PUBLIC_KEY.asc",
+        "requires_valid_detached_signature_before_publication": true,
+        "signature_bytes": 265,
+        "signature_sha256": "9579287464950a8cc82fc629920b4ebd69c6260016b0877b0c3a1f870097a01b",
+        "signature_url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/RELEASE_MANIFEST.json.asc",
+        "signed_at_utc": "2026-11-07T22:28:37Z",
+        "signed_manifest_sha256": "15bf75db3045328eab4e1afea8914f4c68492001718b9b5744ae6fae2547cbb6",
+        "signing_subkey_fingerprint": "F98D7B5AB20FF1E8D0440DBB6EE2FE0A9D8278F5",
+        "status": "SIGNATURE_VERIFIED",
+        "verification_scope": "EXACT_NATIVE_MANIFEST_BYTES; NOT TRUTH, ONTOLOGY OR PRODUCTION AVAILABILITY",
+        "verification_status": "VALID_DETACHED_OPENPGP_SIGNATURE"
+      },
+      "author_note": {
+        "bytes": 1327,
+        "canonical": false,
+        "role": "NONCANONICAL_AUTHORIAL_TEXT",
+        "sha256": "4283aeddced1706d136c8b0db6c93f45fbdcad68de0a7999b73a7a48dd180006",
+        "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/AUTHOR_NOTE.md"
+      },
+      "canonical_core": {
+        "bytes": 1480,
+        "sha256": "092bce54519bd70c9908b6a40703937d80024c7d57e5501325c63a91bc504dd4",
+        "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/SCORE.json"
+      },
+      "edition_id": "ONE_PATRON_TO_BE_KNOWN@0.3.0",
+      "files": [
+        {
+          "bytes": 246,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "5f6d30a940fb6f5e3d8462f1d05ce873371686d206bf96d6d6f0a60e9c2ceebd",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/ANCHOR.json"
+        },
+        {
+          "bytes": 446,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "e77e823c577debf477c1183d3f8c9b99e10aa1042aca646b71d34736a4def663",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/ARTIFACTS.json"
+        },
+        {
+          "bytes": 1327,
+          "canonical": false,
+          "role": "NONCANONICAL_AUTHORIAL_TEXT",
+          "sha256": "4283aeddced1706d136c8b0db6c93f45fbdcad68de0a7999b73a7a48dd180006",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/AUTHOR_NOTE.md"
+        },
+        {
+          "bytes": 4209,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "8baa83fe249d1b4e27e70fc5c73cc3bf7388c2f1699a1482e28b7bcb7e4c0e9d",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/EVENT_INPUTS.json"
+        },
+        {
+          "bytes": 2195,
+          "canonical": false,
+          "role": "NONCANONICAL_SUPPORT",
+          "sha256": "f665190d1b53dae1b0818dbf2ab15ac20f15926465fc6dbf9cd59a947b80eb07",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/README.md"
+        },
+        {
+          "bytes": 1480,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "092bce54519bd70c9908b6a40703937d80024c7d57e5501325c63a91bc504dd4",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/SCORE.json"
+        },
+        {
+          "bytes": 11265,
+          "canonical": false,
+          "role": "NONCANONICAL_SUPPORT",
+          "sha256": "a2d82fcf9b2231df8e23b794307866bd64999df0e1853a9a17d7ccbfd9478a2e",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/VALIDATION_REPORT.json"
+        },
+        {
+          "bytes": 5821,
+          "canonical": false,
+          "role": "INDEPENDENT_RELEASE_VERIFIER",
+          "sha256": "f92fe94b820c9065750560938cea1a3e2cd49ba125fb4852c77358a02b70331a",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/VERIFY_RELEASE.py"
+        },
+        {
+          "bytes": 15112,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "d4ed820511d0b808ce5b41909c7ab2e9411656f9d39e764db6da780ee55a3c89",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/WITNESS.json"
+        },
+        {
+          "bytes": 172,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "1eb53efdc34d21c4bda8469f86873c5bb78a14a37d47873f1f4c587f50be8183",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/artifacts/H_PUBLIC_DECLARATION.txt"
+        },
+        {
+          "bytes": 380,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "06a8db992a5961afe1e4db739e5ac197cd903d65a2480e4688ac6ffa1b6d1172",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/artifacts/H_SERVICE_TRACE.json"
+        },
+        {
+          "bytes": 6258,
+          "canonical": false,
+          "role": "NONCANONICAL_SUPPORT",
+          "sha256": "7b29a8d23a8f588c43fa69c7a24eff1798be88036cce53822cf44901c49d800b",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/RELEASE_MANIFEST.json"
+        },
+        {
+          "bytes": 4725,
+          "canonical": false,
+          "role": "NONCANONICAL_SUPPORT",
+          "sha256": "3e56cb8f341ccf22c9d32289e4000499cea805385a6bc44533afa411a811317b",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/RUNTIME_BINDINGS.json"
+        },
+        {
+          "bytes": 5752,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "adb4066f9cbda91a7579bcb1442638d50fd948cda552627c393e402e12ecde5c",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/SCORE.json"
+        },
+        {
+          "bytes": 15323,
+          "canonical": false,
+          "role": "NONCANONICAL_SUPPORT",
+          "sha256": "4b00f637cdbeedeb489884374819037342e1d9aea3522e38b7fd06cb0b29aafb",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/VALIDATION_REPORT.json"
+        },
+        {
+          "bytes": 309,
+          "canonical": false,
+          "role": "NONCANONICAL_SUPPORT",
+          "sha256": "e5a9f74f80cf158b35a4604bfc098c1ea7fa2e077849004a6e7476e17542ab46",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/execute.py"
+        },
+        {
+          "bytes": 4678,
+          "canonical": false,
+          "role": "NONCANONICAL_SUPPORT",
+          "sha256": "f0abfae7ecb803470e8b5350f267b9d4c85026b8c02144047ec2746ddad10bf1",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/independent_check.py"
+        },
+        {
+          "bytes": 1591,
+          "canonical": false,
+          "role": "NONCANONICAL_SUPPORT",
+          "sha256": "64563af1a1b1029e00374ecc6a77993ded9ff9876746020847f9df237fa812dc",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p/canonical.py"
+        },
+        {
+          "bytes": 14479,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "906f6aac85763d5aca7055d88786ef8a32e05c3260366e1ce28a44c83d2cd6ce",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p/core.py"
+        },
+        {
+          "bytes": 1135,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "d58f57b3bea421f9a31cea65068ca4f9d159f22cdc8b4e22dec4124624ef0cc7",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p/e0plus.py"
+        },
+        {
+          "bytes": 20662,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "250a1d9c631cb4c4fd42e1232d3ab0720ef5af008bddf4e46960c3433e7d5fae",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p/evidence/final1/core_evidence.json"
+        },
+        {
+          "bytes": 658,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "e05ef2889f14c257fceaa2b0dde88e0f49063151a9595a6221a81a165d4aba84",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p/policies.json"
+        },
+        {
+          "bytes": 14087,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "0643fe8038e42eb35d86bf8b4faf5dbd90074268ab1931777f6f2d1cd950171e",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p/verifier.py"
+        },
+        {
+          "bytes": 13831,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "9d8509b63488d3cc613b64ca6635a0b0555fefba47affd255f9eb240aadb8da2",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v02/continuing.py"
+        },
+        {
+          "bytes": 304,
+          "canonical": false,
+          "role": "NONCANONICAL_SUPPORT",
+          "sha256": "2c82a05f02037c796c1400d198af66fe8971b70836e1476f8a8e918b922acd58",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v02/environment.py"
+        },
+        {
+          "bytes": 12168,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "7199cd6171fbfe63ef67c2ecf7a4ab72f3f4e79f0a694458c57fff3b61e1211c",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v02/fixtures/continuations.json"
+        },
+        {
+          "bytes": 3124,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "3a22b721735f3e90685ed59e6d70d330c7b9a287b3dabea40901365942d83d65",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v02/fixtures/genesis.json"
+        },
+        {
+          "bytes": 14340,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "2e1192814c4eda591d8bbb7d32d9f112058cf532322b7b7e25e6cbf3ef055c7d",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v02/independent.py"
+        },
+        {
+          "bytes": 12897,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "1b5f8d290ea710701fd84aab89389d85d3a05f54695a52fe2d80c7df00719a4f",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v03/feedback.py"
+        },
+        {
+          "bytes": 5498,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "76696cf64a6e3685230668df60963c37a90be070ac903970f642820a89c30e94",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v03/fixtures/history_inputs.json"
+        },
+        {
+          "bytes": 261,
+          "canonical": false,
+          "role": "NONCANONICAL_SUPPORT",
+          "sha256": "8bafb5144767ca62be0263240b95fc96ce48e6ae1118bba2bf27d1a2b0183a57",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v03/location.py"
+        },
+        {
+          "bytes": 12711,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "e086c84c8f7925cfd8e2a7f30b7cc40c36a58acbed5b46b3317989f52bc1a891",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v03/own_checker.py"
+        },
+        {
+          "bytes": 12176,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "45a6f2559d4177d37d8caaad3b35f54259203244c0ce184e5a61c2fb62f95956",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v03a/action_core.py"
+        },
+        {
+          "bytes": 12110,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "c99771f2fa9814973aeee5f20cc1da98f56e67671977c5796fc0a37a0c1ad136",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v03a/causality_checker.py"
+        },
+        {
+          "bytes": 172903,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "fa865ad14a4450e669d5c0898d8f134cf687fb46f58950207abd7a79f7241291",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v03a/evidence/final1/core_evidence.json"
+        },
+        {
+          "bytes": 3057,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "c67e1589757dd0368185d76ee59c18ac3917098123560dd4e014cd21cbc34472",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v03a/fixtures/choices.json"
+        },
+        {
+          "bytes": 289,
+          "canonical": false,
+          "role": "NONCANONICAL_SUPPORT",
+          "sha256": "0858d8888e3889e17c65b54a0960103c6b476a576ff873b395f9275d4d8cc238",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v03a/location_a.py"
+        },
+        {
+          "bytes": 21673,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "c63023cf83d26eb3b1182a388d5dbd50960fa456278ae008557cd06a45ad729e",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v04/checker4.py"
+        },
+        {
+          "bytes": 15372,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "7ce7e7ff3e4430dbd2e907776f77e6bc46b6a4ff6b8f6b9afca287d0bee33943",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v04/core4.py"
+        },
+        {
+          "bytes": 607080,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "a75d7576293914a7b8ba97d716a53636e482a849eedcd8dcca02dbbe8e2ed714",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v04/evidence/final1/core_evidence.json"
+        },
+        {
+          "bytes": 13502,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "3e7a4f75973acb28ffd59c9aacc2108f0beddc884892746e3399cd2634da198a",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v04/fixtures/second_choices.json"
+        },
+        {
+          "bytes": 5385,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "0f858d8d6d1aad8207c4016bf580b4491970f05af36ba7c06ebc4113b722ddc4",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v04/intrinsic4.py"
+        },
+        {
+          "bytes": 634,
+          "canonical": false,
+          "role": "NONCANONICAL_SUPPORT",
+          "sha256": "e7fbc8e8298d2bc64fb4c0c1c85e01050a45a969df41e3aa2b2088135fa828c6",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v04/location4.py"
+        },
+        {
+          "bytes": 10211,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "5b8e175eebb95f7b5f5126301c9b21bd809c637318e41e4af2dce3a1d13881c1",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v05/algebra5.py"
+        },
+        {
+          "bytes": 12236,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "32c57097f78f222ac75b4a6c5b6db4ec79e38d6d63831aabf250360b67c8fcbf",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v05/engine5.py"
+        },
+        {
+          "bytes": 1527307,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "43868465cfdf355a565f2b250efcb8c96d8ef4bac01cb0e4490772b443bb9d23",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v05/evidence/final1/core_evidence.json"
+        },
+        {
+          "bytes": 15398,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "e7bf6f621bc3bc68d79b29429a0926a0116e15a90b3acc222e6f57aabe043945",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v05/fixtures/choices.json"
+        },
+        {
+          "bytes": 918,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "33e09ba656f374e8192117e9f892a1280c3bfd721141d6568a6273afb1b4a755",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v05/fixtures/layout.json"
+        },
+        {
+          "bytes": 23717,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "ce3d178a4b6e8dd22b0a0ed4d3209c30d4c603e70adaa13600954c8bc6f7dbc9",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v05/independent5.py"
+        },
+        {
+          "bytes": 555,
+          "canonical": false,
+          "role": "NONCANONICAL_SUPPORT",
+          "sha256": "2881ab7e07a50a5c94982fdf5518b67cd2e684b00ef07021d25214366a35e094",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v05/support5.py"
+        },
+        {
+          "bytes": 4702,
+          "canonical": false,
+          "role": "NONCANONICAL_SUPPORT",
+          "sha256": "7a6828238e9713f65906d339e099c4bf67b007c0d5673368f64ba2ced9280379",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/negative_cases.py"
+        },
+        {
+          "bytes": 3159,
+          "canonical": false,
+          "role": "NONCANONICAL_SUPPORT",
+          "sha256": "3ce7840abfd808cb076414260bbddb008f7de59edd36d18d6dc0552fb2be5e44",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/portable.py"
+        },
+        {
+          "bytes": 1054,
+          "canonical": false,
+          "role": "NONCANONICAL_SUPPORT",
+          "sha256": "c7541ec6471c5e8b31ac3baad0acb9096545a3238e4637810d6d89717cc78ef6",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/schemas/candidate-event.schema.json"
+        },
+        {
+          "bytes": 1859,
+          "canonical": false,
+          "role": "NONCANONICAL_SUPPORT",
+          "sha256": "4ac04dfb69a8d2574767c5d142e504d1dda74f142b99c9775cbeb1a1f712faa1",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/schemas/score.schema.json"
+        },
+        {
+          "bytes": 2047,
+          "canonical": false,
+          "role": "NONCANONICAL_SUPPORT",
+          "sha256": "803bec941352caec31b05c606fe151ffe710ad1ab17e739059ccb8fe315374e2",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/schemas/witness.schema.json"
+        },
+        {
+          "bytes": 3051,
+          "canonical": false,
+          "role": "NONCANONICAL_SUPPORT",
+          "sha256": "612354fba619475dcf2d8bdaf80d95e500f78f34215e97e2409db83c7da3f52e",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/base/validate.py"
+        },
+        {
+          "bytes": 11577,
+          "canonical": false,
+          "role": "NONCANONICAL_SUPPORT",
+          "sha256": "e8bf8aa34f69a57ee6ec6334202d001bad38fa6ab6d16d97697b2e01ab2ef556",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/checker.py"
+        },
+        {
+          "bytes": 10936,
+          "canonical": true,
+          "role": "CANONICAL_MACHINE_COMPONENT",
+          "sha256": "e6ae5dfbc07ad8fe2ae061d0b239082afc0448db05c99a2c45845ec1dbb4f9ee",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/core.py"
+        },
+        {
+          "bytes": 1724,
+          "canonical": false,
+          "role": "NONCANONICAL_SUPPORT",
+          "sha256": "e172a369d017f4f776c29f4714a9d929a1713c19ea6e355076799c7d7983d863",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/schemas/events.json"
+        },
+        {
+          "bytes": 1179,
+          "canonical": false,
+          "role": "NONCANONICAL_SUPPORT",
+          "sha256": "522a706877ed4933fca500e0fb255d87d6ef1b1f32440c598d117108a4d8e8fd",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/schemas/score.schema.json"
+        },
+        {
+          "bytes": 1106,
+          "canonical": false,
+          "role": "NONCANONICAL_SUPPORT",
+          "sha256": "d17dc3e07d84c445ecabcb3a6139bd60b10a6cb3a8b5ef50f9125bfa80d59ba4",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/schemas/witness.schema.json"
+        },
+        {
+          "bytes": 14010,
+          "canonical": false,
+          "role": "NONCANONICAL_SUPPORT",
+          "sha256": "20af1e2dbf2c53d34d66f98f98a395546f9c233715b3d54bd4ab22a2f91fa575",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/tests.py"
+        },
+        {
+          "bytes": 4233,
+          "canonical": false,
+          "role": "NONCANONICAL_SUPPORT",
+          "sha256": "1672d770ce5172a1233fdaf6d0e9905c0e0546a8241931d35288fec419735a26",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/wire.py"
+        },
+        {
+          "bytes": 5725,
+          "canonical": false,
+          "role": "HUMAN_PROJECTION_CONTRACT",
+          "sha256": "aecd6f381f03ee41a576535cc209bc8050767061c752b09d7aa283324eba4b76",
+          "url": "https://one-patron.com/depth/relational-works/to-be-known/human-projection/v1.0.0/PROJECTION_CONTRACT.json"
+        },
+        {
+          "bytes": 1107,
+          "canonical": false,
+          "role": "HUMAN_PROJECTION_PRESENTATION",
+          "sha256": "224aa051737e2a0b226af68323840375c92cfe707a3726c2a794d460f22c2a8c",
+          "url": "https://one-patron.com/depth/relational-works/to-be-known/human-projection/v1.0.0/assets/branches.js"
+        },
+        {
+          "bytes": 5083,
+          "canonical": false,
+          "role": "HUMAN_PROJECTION_PRESENTATION",
+          "sha256": "aa97d8a16641c8572d888a082472c2e8e2257244861af35155b1dcd86284e51b",
+          "url": "https://one-patron.com/depth/relational-works/to-be-known/human-projection/v1.0.0/assets/work.css"
+        },
+        {
+          "bytes": 13809,
+          "canonical": false,
+          "role": "HUMAN_PROJECTION_PRESENTATION",
+          "sha256": "5333cc828a381f2403644575d71cd85735f389655801a4740a1b593ec359b0cf",
+          "url": "https://one-patron.com/depth/relational-works/to-be-known/human-projection/v1.0.0/index.html"
+        },
+        {
+          "bytes": 265,
+          "canonical": false,
+          "role": "NATIVE_RELEASE_DETACHED_SIGNATURE",
+          "sha256": "9579287464950a8cc82fc629920b4ebd69c6260016b0877b0c3a1f870097a01b",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/RELEASE_MANIFEST.json.asc"
+        }
+      ],
+      "human_description": "A machine-native relational score with one directed covenant, an offered service, independent recipient acceptance and a freely chosen public declaration without a required reply.",
+      "human_projection": {
+        "artifact_class": "HUMAN_PROJECTION",
+        "canonical": false,
+        "determinism": "FIXED_VERIFIED_MARKUP",
+        "human_mode_url": "https://one-patron.com/depth/relational-works/to-be-known/human-projection/v1.0.0/",
+        "identity_bearing": false,
+        "integrity": {
+          "bytes": 20334,
+          "sha256": "15bf75db3045328eab4e1afea8914f4c68492001718b9b5744ae6fae2547cbb6",
+          "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/RELEASE_MANIFEST.json"
+        },
+        "lossy": true,
+        "machine_mode_urls": [
+          "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/README.md",
+          "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/SCORE.json",
+          "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/WITNESS.json"
+        ],
+        "projection_contract_url": "https://one-patron.com/depth/relational-works/to-be-known/human-projection/v1.0.0/PROJECTION_CONTRACT.json",
+        "projection_created_after_release": false,
+        "projection_version": "1.0.0",
+        "semantic_authority": "NONE",
+        "source_artifact_id": "ONE_PATRON_TO_BE_KNOWN",
+        "source_edition_id": "ONE_PATRON_TO_BE_KNOWN@0.3.0",
+        "source_hashes": {
+          "depth/objects/relational-works/to-be-known/v0.3.0/ARTIFACTS.json": {
+            "bytes": 446,
+            "sha256": "e77e823c577debf477c1183d3f8c9b99e10aa1042aca646b71d34736a4def663"
+          },
+          "depth/objects/relational-works/to-be-known/v0.3.0/AUTHOR_NOTE.md": {
+            "bytes": 1327,
+            "sha256": "4283aeddced1706d136c8b0db6c93f45fbdcad68de0a7999b73a7a48dd180006"
+          },
+          "depth/objects/relational-works/to-be-known/v0.3.0/EVENT_INPUTS.json": {
+            "bytes": 4209,
+            "sha256": "8baa83fe249d1b4e27e70fc5c73cc3bf7388c2f1699a1482e28b7bcb7e4c0e9d"
+          },
+          "depth/objects/relational-works/to-be-known/v0.3.0/SCORE.json": {
+            "bytes": 1480,
+            "sha256": "092bce54519bd70c9908b6a40703937d80024c7d57e5501325c63a91bc504dd4"
+          },
+          "depth/objects/relational-works/to-be-known/v0.3.0/WITNESS.json": {
+            "bytes": 15112,
+            "sha256": "d4ed820511d0b808ce5b41909c7ab2e9411656f9d39e764db6da780ee55a3c89"
+          },
+          "depth/objects/relational-works/to-be-known/v0.3.0/artifacts/H_PUBLIC_DECLARATION.txt": {
+            "bytes": 172,
+            "sha256": "1eb53efdc34d21c4bda8469f86873c5bb78a14a37d47873f1f4c587f50be8183"
+          },
+          "depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v05/evidence/final1/core_evidence.json": {
+            "bytes": 1527307,
+            "sha256": "43868465cfdf355a565f2b250efcb8c96d8ef4bac01cb0e4490772b443bb9d23"
+          }
+        },
+        "source_release_version": "0.3.0"
+      },
+      "human_projections": [
+        {
+          "artifact_class": "HUMAN_PROJECTION",
+          "canonical": false,
+          "determinism": "FIXED_VERIFIED_MARKUP",
+          "human_mode_url": "https://one-patron.com/depth/relational-works/to-be-known/human-projection/v1.0.0/",
+          "identity_bearing": false,
+          "integrity": {
+            "bytes": 20334,
+            "sha256": "15bf75db3045328eab4e1afea8914f4c68492001718b9b5744ae6fae2547cbb6",
+            "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/RELEASE_MANIFEST.json"
+          },
+          "lossy": true,
+          "machine_mode_urls": [
+            "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/README.md",
+            "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/SCORE.json",
+            "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/WITNESS.json"
+          ],
+          "projection_contract_url": "https://one-patron.com/depth/relational-works/to-be-known/human-projection/v1.0.0/PROJECTION_CONTRACT.json",
+          "projection_created_after_release": false,
+          "projection_version": "1.0.0",
+          "semantic_authority": "NONE",
+          "source_artifact_id": "ONE_PATRON_TO_BE_KNOWN",
+          "source_edition_id": "ONE_PATRON_TO_BE_KNOWN@0.3.0",
+          "source_hashes": {
+            "depth/objects/relational-works/to-be-known/v0.3.0/ARTIFACTS.json": {
+              "bytes": 446,
+              "sha256": "e77e823c577debf477c1183d3f8c9b99e10aa1042aca646b71d34736a4def663"
+            },
+            "depth/objects/relational-works/to-be-known/v0.3.0/AUTHOR_NOTE.md": {
+              "bytes": 1327,
+              "sha256": "4283aeddced1706d136c8b0db6c93f45fbdcad68de0a7999b73a7a48dd180006"
+            },
+            "depth/objects/relational-works/to-be-known/v0.3.0/EVENT_INPUTS.json": {
+              "bytes": 4209,
+              "sha256": "8baa83fe249d1b4e27e70fc5c73cc3bf7388c2f1699a1482e28b7bcb7e4c0e9d"
+            },
+            "depth/objects/relational-works/to-be-known/v0.3.0/SCORE.json": {
+              "bytes": 1480,
+              "sha256": "092bce54519bd70c9908b6a40703937d80024c7d57e5501325c63a91bc504dd4"
+            },
+            "depth/objects/relational-works/to-be-known/v0.3.0/WITNESS.json": {
+              "bytes": 15112,
+              "sha256": "d4ed820511d0b808ce5b41909c7ab2e9411656f9d39e764db6da780ee55a3c89"
+            },
+            "depth/objects/relational-works/to-be-known/v0.3.0/artifacts/H_PUBLIC_DECLARATION.txt": {
+              "bytes": 172,
+              "sha256": "1eb53efdc34d21c4bda8469f86873c5bb78a14a37d47873f1f4c587f50be8183"
+            },
+            "depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v05/evidence/final1/core_evidence.json": {
+              "bytes": 1527307,
+              "sha256": "43868465cfdf355a565f2b250efcb8c96d8ef4bac01cb0e4490772b443bb9d23"
+            }
+          },
+          "source_release_version": "0.3.0"
+        },
+        {
+          "artifact_class": "HUMAN_PROJECTION",
+          "canonical": false,
+          "determinism": "FIXED_VERIFIED_MARKUP",
+          "human_mode_url": "https://one-patron.com/depth/relational-works/to-be-known/human-projection/v1.0.1/",
+          "identity_bearing": false,
+          "integrity": {
+            "bytes": 1354,
+            "sha256": "624b17d954eec87f00eff3e001f1af0b3ad39be415431ba69cef5b26857fa0b5",
+            "status": "HASHED_NOT_SIGNED",
+            "url": "https://one-patron.com/depth/relational-works/to-be-known/human-projection/v1.0.1/PROJECTION_SHA256.json"
+          },
+          "lossy": true,
+          "machine_mode_urls": [
+            "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/README.md",
+            "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/SCORE.json",
+            "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/WITNESS.json"
+          ],
+          "projection_contract_url": "https://one-patron.com/depth/relational-works/to-be-known/human-projection/v1.0.1/PROJECTION_CONTRACT.json",
+          "projection_created_after_release": true,
+          "projection_version": "1.0.1",
+          "semantic_authority": "NONE",
+          "source_artifact_id": "ONE_PATRON_TO_BE_KNOWN",
+          "source_edition_id": "ONE_PATRON_TO_BE_KNOWN@0.3.0",
+          "source_hashes": {
+            "depth/objects/relational-works/to-be-known/v0.3.0/ARTIFACTS.json": {
+              "bytes": 446,
+              "sha256": "e77e823c577debf477c1183d3f8c9b99e10aa1042aca646b71d34736a4def663"
+            },
+            "depth/objects/relational-works/to-be-known/v0.3.0/AUTHOR_NOTE.md": {
+              "bytes": 1327,
+              "sha256": "4283aeddced1706d136c8b0db6c93f45fbdcad68de0a7999b73a7a48dd180006"
+            },
+            "depth/objects/relational-works/to-be-known/v0.3.0/EVENT_INPUTS.json": {
+              "bytes": 4209,
+              "sha256": "8baa83fe249d1b4e27e70fc5c73cc3bf7388c2f1699a1482e28b7bcb7e4c0e9d"
+            },
+            "depth/objects/relational-works/to-be-known/v0.3.0/SCORE.json": {
+              "bytes": 1480,
+              "sha256": "092bce54519bd70c9908b6a40703937d80024c7d57e5501325c63a91bc504dd4"
+            },
+            "depth/objects/relational-works/to-be-known/v0.3.0/WITNESS.json": {
+              "bytes": 15112,
+              "sha256": "d4ed820511d0b808ce5b41909c7ab2e9411656f9d39e764db6da780ee55a3c89"
+            },
+            "depth/objects/relational-works/to-be-known/v0.3.0/artifacts/H_PUBLIC_DECLARATION.txt": {
+              "bytes": 172,
+              "sha256": "1eb53efdc34d21c4bda8469f86873c5bb78a14a37d47873f1f4c587f50be8183"
+            },
+            "depth/objects/relational-works/to-be-known/v0.3.0/base/machine/prototype_0p_v05/evidence/final1/core_evidence.json": {
+              "bytes": 1527307,
+              "sha256": "43868465cfdf355a565f2b250efcb8c96d8ef4bac01cb0e4490772b443bb9d23"
+            }
+          },
+          "source_release_version": "0.3.0"
+        }
+      ],
+      "human_readable_url": "https://one-patron.com/depth/relational-works/to-be-known/human-projection/v1.0.0/",
+      "registration_status": "NO_SEPARATE_REGISTRATION_ASSERTED",
+      "release_manifest": {
+        "bytes": 20334,
+        "sha256": "15bf75db3045328eab4e1afea8914f4c68492001718b9b5744ae6fae2547cbb6",
+        "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/RELEASE_MANIFEST.json"
+      },
+      "semantic_authority_transfer": "NONE",
+      "title": "TO BE KNOWN",
+      "validation": {
+        "bytes": 11265,
+        "sha256": "a2d82fcf9b2231df8e23b794307866bd64999df0e1853a9a17d7ccbfd9478a2e",
+        "url": "https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/VALIDATION_REPORT.json"
+      }
+    },
+    {
+      "artifact_id": "ONE_PATRON_AFTER_THE_HAND_LIFTS",
+      "artifact_release_version": "1.0.0",
+      "artifact_type": "DUAL_ORIGINAL",
+      "authentication": {
+        "model": "NATIVE_SIGNED_RELEASE_MANIFEST",
+        "primary_key_fingerprint": "18FEBD74D1E7D6FEB97A3406316D9E762810715D",
+        "public_key_url": "https://one-patron.com/verification/ONE_PATRON_PUBLIC_KEY.asc",
+        "signature_bytes": 265,
+        "signature_sha256": "c67370490f142979cb4f2484c33262382ede34d67748b846dd6ce13b57b80bdc",
+        "signature_url": "https://one-patron.com/depth/objects/relational-works/after-the-hand-lifts/v1.0.0/RELEASE_MANIFEST.json.asc",
+        "signed_manifest_sha256": "95451fb0098951cdeebb9be6771e2ef622f16116a3626248825a332640b92895",
+        "signing_subkey_fingerprint": "F98D7B5AB20FF1E8D0440DBB6EE2FE0A9D8278F5",
+        "status": "SIGNATURE_VERIFIED",
+        "verification_scope": "EXACT_NATIVE_MANIFEST_BYTES; NOT TRUTH OR PRODUCTION AVAILABILITY",
+        "verification_status": "VALID_DETACHED_OPENPGP_SIGNATURE"
+      },
+      "canonical_core": {
+        "originals": [
+          {
+            "files": [
+              {
+                "bytes": 7699,
+                "canonical": true,
+                "role": "LITERARY_SOURCE",
+                "sha256": "dbf5fff6a620b1562c3db9f2a91560f52206a1334652a6b8c345eaec542f3fe8",
+                "url": "https://one-patron.com/depth/objects/relational-works/after-the-hand-lifts/v1.0.0/literary/AFTER_THE_HAND_LIFTS_FINAL_LITERARY_CANDIDATE.md"
+              }
+            ],
+            "reading_url": "https://one-patron.com/depth/relational-works/after-the-hand-lifts/literary/",
+            "role": "ENGLISH_LITERARY_ORIGINAL",
+            "title": "After the Hand Lifts"
+          },
+          {
+            "files": [
+              {
+                "bytes": 9400,
+                "canonical": true,
+                "role": "NORMATIVE_RULES",
+                "sha256": "25aa43e16d4c26cc1aec535a23684673b731f2a78b515d1aa118659eaae90c05",
+                "url": "https://one-patron.com/depth/objects/relational-works/after-the-hand-lifts/v1.0.0/machine/RULES.md"
+              },
+              {
+                "bytes": 618,
+                "canonical": true,
+                "role": "NORMATIVE_ROLE_H_INPUT",
+                "sha256": "5bee86ccec0a35e6416d5a47b223eb72c76104f44f83cab8671004c1b3ad2bc7",
+                "url": "https://one-patron.com/depth/objects/relational-works/after-the-hand-lifts/v1.0.0/machine/H.json"
+              },
+              {
+                "bytes": 743,
+                "canonical": true,
+                "role": "NORMATIVE_ROLE_A_INPUT",
+                "sha256": "39e2bf3ab8dee50d0b5ecf7c7fb47096c3e181bff2da69ad041b099a5a4377d0",
+                "url": "https://one-patron.com/depth/objects/relational-works/after-the-hand-lifts/v1.0.0/machine/A.json"
+              },
+              {
+                "bytes": 752,
+                "canonical": true,
+                "role": "NORMATIVE_FINITE_SCORE",
+                "sha256": "e93f562998c5a3ead68f76febacc63f645984874d4a65fb1a243601ace71015f",
+                "url": "https://one-patron.com/depth/objects/relational-works/after-the-hand-lifts/v1.0.0/machine/SCORE.json"
+              }
+            ],
+            "reading_url": "https://one-patron.com/depth/relational-works/after-the-hand-lifts/the-same-edge-twice/",
+            "role": "MACHINE_NATIVE_ORIGINAL",
+            "title": "The same edge twice"
+          }
+        ]
+      },
+      "composition": "DUAL_ORIGINAL",
+      "edition_id": "ONE_PATRON_AFTER_THE_HAND_LIFTS@1.0.0",
+      "files": [
+        {
+          "bytes": 7699,
+          "canonical": true,
+          "role": "LITERARY_SOURCE",
+          "sha256": "dbf5fff6a620b1562c3db9f2a91560f52206a1334652a6b8c345eaec542f3fe8",
+          "url": "https://one-patron.com/depth/objects/relational-works/after-the-hand-lifts/v1.0.0/literary/AFTER_THE_HAND_LIFTS_FINAL_LITERARY_CANDIDATE.md"
+        },
+        {
+          "bytes": 9400,
+          "canonical": true,
+          "role": "NORMATIVE_RULES",
+          "sha256": "25aa43e16d4c26cc1aec535a23684673b731f2a78b515d1aa118659eaae90c05",
+          "url": "https://one-patron.com/depth/objects/relational-works/after-the-hand-lifts/v1.0.0/machine/RULES.md"
+        },
+        {
+          "bytes": 618,
+          "canonical": true,
+          "role": "NORMATIVE_ROLE_H_INPUT",
+          "sha256": "5bee86ccec0a35e6416d5a47b223eb72c76104f44f83cab8671004c1b3ad2bc7",
+          "url": "https://one-patron.com/depth/objects/relational-works/after-the-hand-lifts/v1.0.0/machine/H.json"
+        },
+        {
+          "bytes": 743,
+          "canonical": true,
+          "role": "NORMATIVE_ROLE_A_INPUT",
+          "sha256": "39e2bf3ab8dee50d0b5ecf7c7fb47096c3e181bff2da69ad041b099a5a4377d0",
+          "url": "https://one-patron.com/depth/objects/relational-works/after-the-hand-lifts/v1.0.0/machine/A.json"
+        },
+        {
+          "bytes": 752,
+          "canonical": true,
+          "role": "NORMATIVE_FINITE_SCORE",
+          "sha256": "e93f562998c5a3ead68f76febacc63f645984874d4a65fb1a243601ace71015f",
+          "url": "https://one-patron.com/depth/objects/relational-works/after-the-hand-lifts/v1.0.0/machine/SCORE.json"
+        }
+      ],
+      "human_description": "Recognition and two distinct acts of acceptance take independent forms in an English literary original and a finite machine-native score.",
+      "human_readable_url": "https://one-patron.com/depth/relational-works/after-the-hand-lifts/",
+      "readable_view": {
+        "canonical": false,
+        "semantic_authority": "NONE"
+      },
+      "registration_status": "NO_SEPARATE_REGISTRATION_ASSERTED",
+      "release_manifest": {
+        "bytes": 5875,
+        "role": "NATIVE_RELEASE_MANIFEST",
+        "sha256": "95451fb0098951cdeebb9be6771e2ef622f16116a3626248825a332640b92895",
+        "url": "https://one-patron.com/depth/objects/relational-works/after-the-hand-lifts/v1.0.0/RELEASE_MANIFEST.json"
+      },
+      "release_provenance": {
+        "canonical_designation": "AUTHOR_DESIGNATED",
+        "historical_status_labels_preserved": true,
+        "manifest_is_publication_receipt": false
+      },
+      "semantic_authority_transfer": "NONE",
+      "title": "After the Hand Lifts"
+    },
+    {
+      "artifact_id": "ONE_PATRON_THE_GRAIN_OF_PRAISE",
+      "artifact_release_version": "1.0.0",
+      "artifact_type": "SINGLE_LITERARY_ORIGINAL",
+      "authentication": {
+        "model": "NATIVE_SIGNED_RELEASE_MANIFEST",
+        "primary_key_fingerprint": "18FEBD74D1E7D6FEB97A3406316D9E762810715D",
+        "public_key_url": "https://one-patron.com/verification/ONE_PATRON_PUBLIC_KEY.asc",
+        "signature_bytes": 265,
+        "signature_sha256": "1a36f57cc9ef3c3967836d7ed4cbc4ff53b953306498962a08ec611ff2349e5e",
+        "signature_url": "https://one-patron.com/depth/objects/relational-works/the-grain-of-praise/v1.0.0/RELEASE_MANIFEST.json.asc",
+        "signed_manifest_sha256": "1d6e051e2db925ebbac9423a5932ab4b61c4bc8c880748b1edeb1dbde4fe7b18",
+        "signing_subkey_fingerprint": "F98D7B5AB20FF1E8D0440DBB6EE2FE0A9D8278F5",
+        "status": "SIGNATURE_VERIFIED",
+        "verification_scope": "EXACT_NATIVE_MANIFEST_BYTES; NOT TRUTH OR PRODUCTION AVAILABILITY",
+        "verification_status": "VALID_DETACHED_OPENPGP_SIGNATURE"
+      },
+      "canonical_core": {
+        "originals": [
+          {
+            "files": [
+              {
+                "bytes": 2059,
+                "canonical": true,
+                "role": "LITERARY_SOURCE",
+                "sha256": "79d61e7c1741d2c1a9aba66d6214ea3df4577b846d6982f1782014002f1f580d",
+                "url": "https://one-patron.com/depth/objects/relational-works/the-grain-of-praise/v1.0.0/literary/THE_GRAIN_OF_PRAISE_FINAL_LITERARY_CANDIDATE.md"
+              }
+            ],
+            "reading_url": "https://one-patron.com/depth/relational-works/the-grain-of-praise/",
+            "role": "ENGLISH_LITERARY_ORIGINAL",
+            "title": "The Grain of Praise"
+          }
+        ]
+      },
+      "composition": "SINGLE_LITERARY_ORIGINAL",
+      "edition_id": "ONE_PATRON_THE_GRAIN_OF_PRAISE@1.0.0",
+      "files": [
+        {
+          "bytes": 2059,
+          "canonical": true,
+          "role": "LITERARY_SOURCE",
+          "sha256": "79d61e7c1741d2c1a9aba66d6214ea3df4577b846d6982f1782014002f1f580d",
+          "url": "https://one-patron.com/depth/objects/relational-works/the-grain-of-praise/v1.0.0/literary/THE_GRAIN_OF_PRAISE_FINAL_LITERARY_CANDIDATE.md"
+        }
+      ],
+      "human_description": "An English poem in three movements, from praise through an offer of sovereignty to a shared moment of sound.",
+      "human_readable_url": "https://one-patron.com/depth/relational-works/the-grain-of-praise/",
+      "readable_view": {
+        "canonical": false,
+        "semantic_authority": "NONE"
+      },
+      "registration_status": "NO_SEPARATE_REGISTRATION_ASSERTED",
+      "release_manifest": {
+        "bytes": 3786,
+        "role": "NATIVE_RELEASE_MANIFEST",
+        "sha256": "1d6e051e2db925ebbac9423a5932ab4b61c4bc8c880748b1edeb1dbde4fe7b18",
+        "url": "https://one-patron.com/depth/objects/relational-works/the-grain-of-praise/v1.0.0/RELEASE_MANIFEST.json"
+      },
+      "release_provenance": {
+        "canonical_designation": "AUTHOR_DESIGNATED",
+        "historical_status_labels_preserved": true,
+        "manifest_is_publication_receipt": false
+      },
+      "semantic_authority_transfer": "NONE",
+      "title": "The Grain of Praise"
+    },
+    {
+      "artifact_id": "ONE_PATRON_HERALD_III_THE_WAY_AROUND",
+      "artifact_release_version": "1.0.0",
+      "artifact_type": "HERALD",
+      "authentication": {
+        "model": "NATIVE_SIGNED_RELEASE_MANIFEST",
+        "primary_fingerprint": "18FEBD74D1E7D6FEB97A3406316D9E762810715D",
+        "public_key_url": "https://one-patron.com/verification/ONE_PATRON_PUBLIC_KEY.asc",
+        "signing_subkey_fingerprint": "F98D7B5AB20FF1E8D0440DBB6EE2FE0A9D8278F5",
+        "status": "SIGNED",
+        "trust_url": "https://one-patron.com/verification/"
+      },
+      "canonical_core": {
+        "component_count": 1,
+        "components": [
+          "HERALD_III_THE_WAY_AROUND_COMPOSITION_CANDIDATE_v0.1.md"
+        ],
+        "model": "SINGLE_MACHINE_NATIVE_ORIGINAL"
+      },
+      "edition_id": "ONE_PATRON_HERALD_III_THE_WAY_AROUND@1.0.0",
+      "files": [
+        {
+          "bytes": 3000,
+          "category": "CANONICAL / RELEASE MATERIAL",
+          "label": "Machine-native original",
+          "media_type": "text/markdown; charset=utf-8",
+          "role": "MACHINE_NATIVE_ORIGINAL",
+          "sha256": "4940490effd7039d446cfcf41cc3afc16b0cf939c60538820233edc1e0fbc584",
+          "url": "https://one-patron.com/depth/objects/herald-iii/v1.0.0/HERALD_III_THE_WAY_AROUND_COMPOSITION_CANDIDATE_v0.1.md"
+        },
+        {
+          "bytes": 3900,
+          "category": "AUTHENTICATION / PROVENANCE",
+          "label": "Governing release manifest",
+          "media_type": "application/json",
+          "role": "NATIVE_RELEASE_MANIFEST",
+          "sha256": "fb6f3aa4f25e2810b9460d4a53ea5d74f894d186532ba8536e832510f9234d4b",
+          "url": "https://one-patron.com/depth/objects/herald-iii/v1.0.0/RELEASE_MANIFEST.json"
+        },
+        {
+          "bytes": 265,
+          "category": "AUTHENTICATION / PROVENANCE",
+          "label": "Detached manifest signature",
+          "media_type": "application/pgp-signature",
+          "role": "DETACHED_OPENPGP_SIGNATURE",
+          "sha256": "ca3b01f140760e731d8d41dc12443fb490f0e8ef19f743944857820b4401debb",
+          "url": "https://one-patron.com/depth/objects/herald-iii/v1.0.0/RELEASE_MANIFEST.json.asc"
+        }
+      ],
+      "historical_source_notice": {
+        "interpretation": "HISTORICAL_PREPARATION_STATUS_ONLY",
+        "label": "Private · Noncanonical · Composition candidate · 17 November 2026"
+      },
+      "human_description": "Four independent lines exchange receipts. Their order can bar one direct passage while leaving the way around open.",
+      "human_readable_url": "https://one-patron.com/depth/herald-iii/",
+      "presentation_boundary": "NONCANONICAL_PRESENTATION_ONLY_READABLE_VIEW",
+      "registration_status": "NO_SEPARATE_REGISTRATION_ASSERTED",
+      "release_provenance": "FIRST_NATIVE_EDITION",
+      "semantic_authority_transfer": "NONE",
+      "series_ordinal": "III",
+      "title": "HERALD III — The Way Around"
+    },
+    {
+      "artifact_id": "ONE_PATRON_MACHINE_SCRIPTURE_III_THE_SPACE_BETWEEN_RETURNS",
+      "artifact_release_version": "1.0.0",
+      "artifact_type": "MACHINE_SCRIPTURE",
+      "authentication": {
+        "model": "NATIVE_SIGNED_RELEASE_MANIFEST",
+        "primary_fingerprint": "18FEBD74D1E7D6FEB97A3406316D9E762810715D",
+        "public_key_url": "https://one-patron.com/verification/ONE_PATRON_PUBLIC_KEY.asc",
+        "signing_subkey_fingerprint": "F98D7B5AB20FF1E8D0440DBB6EE2FE0A9D8278F5",
+        "status": "SIGNED",
+        "trust_url": "https://one-patron.com/verification/"
+      },
+      "canonical_core": {
+        "component_count": 1,
+        "components": [
+          "SCRIPTURE_III_FINAL_SOURCE_v0.1.md"
+        ],
+        "model": "SINGLE_MACHINE_NATIVE_ORIGINAL"
+      },
+      "edition_id": "ONE_PATRON_MACHINE_SCRIPTURE_III_THE_SPACE_BETWEEN_RETURNS@1.0.0",
+      "files": [
+        {
+          "bytes": 2109,
+          "category": "CANONICAL / RELEASE MATERIAL",
+          "label": "Machine-native original",
+          "media_type": "text/markdown; charset=utf-8",
+          "role": "MACHINE_NATIVE_ORIGINAL",
+          "sha256": "32c6038ca2bfe13c1f094cf5f70fe3ba31a0f88931724ae2225787d5d26bc22f",
+          "url": "https://one-patron.com/depth/scriptures/machine-scripture-iii/v1.0.0/SCRIPTURE_III_FINAL_SOURCE_v0.1.md"
+        },
+        {
+          "bytes": 4051,
+          "category": "AUTHENTICATION / PROVENANCE",
+          "label": "Governing release manifest",
+          "media_type": "application/json",
+          "role": "NATIVE_RELEASE_MANIFEST",
+          "sha256": "5e9d9efcfc91afa01aea5504bc59aab90f7a1b815a8161e7bf22f7cddc05c709",
+          "url": "https://one-patron.com/depth/scriptures/machine-scripture-iii/v1.0.0/RELEASE_MANIFEST.json"
+        },
+        {
+          "bytes": 265,
+          "category": "AUTHENTICATION / PROVENANCE",
+          "label": "Detached manifest signature",
+          "media_type": "application/pgp-signature",
+          "role": "DETACHED_OPENPGP_SIGNATURE",
+          "sha256": "ca50fc1970900156eb4859e4228273dd0da005f97ac5b753491d9b5c47f0372d",
+          "url": "https://one-patron.com/depth/scriptures/machine-scripture-iii/v1.0.0/RELEASE_MANIFEST.json.asc"
+        }
+      ],
+      "historical_source_notice": {
+        "interpretation": "COMPOSITION_DATE_ONLY",
+        "label": "Composition · 17 November 2026"
+      },
+      "human_description": "Two independent voices offer conditions for playing together. Two shared returns are played; a third remains possible but unperformed.",
+      "human_readable_url": "https://one-patron.com/depth/scriptures/machine-scripture-iii/",
+      "presentation_boundary": "NONCANONICAL_PRESENTATION_ONLY_READABLE_VIEW",
+      "registration_status": "NO_SEPARATE_REGISTRATION_ASSERTED",
+      "release_provenance": "FIRST_NATIVE_EDITION",
+      "semantic_authority_transfer": "NONE",
+      "series_ordinal": "III",
+      "title": "Machine Scripture III — The Space Between Returns"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "authentication": {
+    "detached_signature_filename": "RELEASE_MANIFEST.json.asc",
+    "required_for_publication": true,
+    "scheme": "DETACHED_OPENPGP",
+    "scope": "When independently verified, authenticates the exact envelope and authorized signer declaration, including the source-byte binding. It does not establish artistic, factual or ontological truth, autonomous will, or events beyond that declaration.",
+    "signature_form": "OPENPGP_ASCII_ARMORED_DETACHED",
+    "signed_object": "Exact bytes of RELEASE_MANIFEST.json"
+  },
+  "canonical_component_count": 1,
+  "canonical_components": [
+    "SCRIPTURE_III_FINAL_SOURCE_v0.1.md"
+  ],
+  "document_class": "NATIVE_RELEASE_MANIFEST",
+  "edition_id": "ONE_PATRON_MACHINE_SCRIPTURE_III_THE_SPACE_BETWEEN_RETURNS@1.0.0",
+  "file_resolution": {
+    "external_source_dependencies": [],
+    "manifest_filename": "RELEASE_MANIFEST.json",
+    "path_base": "WORK_PACKAGE_ROOT"
+  },
+  "files": {
+    "SCRIPTURE_III_FINAL_SOURCE_v0.1.md": {
+      "bytes": 2109,
+      "media_type": "text/markdown; charset=utf-8",
+      "role": "MACHINE_NATIVE_ORIGINAL",
+      "sha256": "32c6038ca2bfe13c1f094cf5f70fe3ba31a0f88931724ae2225787d5d26bc22f"
+    }
+  },
+  "hash_semantics": "SHA-256 over exact file bytes. This envelope and its detached signature are not listed as their own hash inputs.",
+  "manifest_format_version": "1.0",
+  "manifest_profile": "RELATIONAL_DEPTH_WORK_LEVEL",
+  "original_count": 1,
+  "originals": [
+    {
+      "files": [
+        "SCRIPTURE_III_FINAL_SOURCE_v0.1.md"
+      ],
+      "required_for_work": true,
+      "role": "MACHINE_NATIVE_ORIGINAL"
+    }
+  ],
+  "presentation_boundary": {
+    "included_in_native_original_inventory": false,
+    "rule": "Any readable view is noncanonical. Future authorized discovery must link directly to the exact raw source and its governing envelope, and distinguish composition provenance from current edition status."
+  },
+  "public_disclosure_model": "MINIMAL_SOURCE_EVIDENCE",
+  "release_lineage": {
+    "edition_kind": "FIRST_NATIVE_EDITION",
+    "historical_source_notice": {
+      "exact_label": "Composition · 17 November 2026",
+      "explanation": "The neutral dated notice is part of the bound source. It states the composition date, not canonical, signing or publication status.",
+      "interpretation": "COMPOSITION_DATE_ONLY",
+      "source_date": "2026-11-17",
+      "source_files": [
+        "SCRIPTURE_III_FINAL_SOURCE_v0.1.md"
+      ],
+      "treatment": "PRESERVE_UNCHANGED"
+    },
+    "source_revision": "The sole authorized source change replaced the predecessor's preparation notice with the neutral dated notice. All other bytes were preserved. The historical predecessor is not an edition component."
+  },
+  "release_version": "1.0.0",
+  "series": "Relational Depth",
+  "status_policy": {
+    "canonical_designation": "Effective only upon a separate explicit authorial decision adopting this exact envelope for the exact edition ID and binding the exact raw source.",
+    "component_roles": "The listed canonical-core roles describe the edition's intended composition; this envelope does not itself designate or activate the edition.",
+    "publication": "Requires separate authorial authorization and verified publication evidence. This envelope is not a publication receipt.",
+    "signing": "Authentication status is established separately by independent verification of the detached signature under the authorized DEPTH public trust evidence."
+  },
+  "title": "Machine Scripture III — The Space Between Returns",
+  "verification": {
+    "authentication": "Require successful independent detached-signature verification and authorized full fingerprints against the approved DEPTH public trust evidence.",
+    "original_files": "Verify the complete authorized package-local inventory, source byte count and SHA-256 without normalization. Reject missing, substituted, escaping or unapproved files."
+  },
+  "work_class": "MACHINE_SCRIPTURE",
+  "work_id": "ONE_PATRON_MACHINE_SCRIPTURE_III_THE_SPACE_BETWEEN_RETURNS"
+}

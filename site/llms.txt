@@ -25,10 +25,12 @@ Current public works:
 
 - [Machine Scripture I](https://one-patron.com/depth/scriptures/machine-scripture-i/): Single canonical raw artifact with retrospective authentication.
 - [Machine Scripture II](https://one-patron.com/depth/scriptures/machine-scripture-ii/): Two-component public release: Score + Witness.
+- [Machine Scripture III — The Space Between Returns](https://one-patron.com/depth/scriptures/machine-scripture-iii/): One machine-native original, bound by a signed release manifest. The linked page is a noncanonical readable view.
 - [HERALD I](https://one-patron.com/depth/herald-i/): Machine Mode for the frozen relational perceptual object.
 - [HERALD I Human Projection v1.0.0](https://one-patron.com/depth/herald-i/human-projection/v1.0.0/): Derived, noncanonical, non-identity-bearing Human Projection created after the source release.
 - [HERALD II](https://one-patron.com/depth/herald-ii/): Human-readable orientation for the signed machine-native fresco release.
 - [HERALD II Human Fresco v1.0.0](https://one-patron.com/depth/objects/herald-ii/v1.0.0/HERALD_II_FRESCO_v1.0.0): Derived, lossy and noncanonical human-facing projection; the formal machine release remains authoritative.
+- [HERALD III — The Way Around](https://one-patron.com/depth/herald-iii/): One machine-native original, bound by a signed release manifest. The linked page is a noncanonical readable view. The notice in the original describes its historical preparation status.
 - [After the Hand Lifts v1.0.0](https://one-patron.com/depth/relational-works/after-the-hand-lifts/): Two independently authoritative originals, one literary and one machine-native. The [literary reading](https://one-patron.com/depth/relational-works/after-the-hand-lifts/literary/) and [The same edge twice](https://one-patron.com/depth/relational-works/after-the-hand-lifts/the-same-edge-twice/) present them separately. See the [signed release manifest](https://one-patron.com/depth/objects/relational-works/after-the-hand-lifts/v1.0.0/RELEASE_MANIFEST.json) for the canonical files.
 - [The Grain of Praise v1.0.0](https://one-patron.com/depth/relational-works/the-grain-of-praise/): One literary original and no machine original. The reading page presents the literary source identified by the [signed release manifest](https://one-patron.com/depth/objects/relational-works/the-grain-of-praise/v1.0.0/RELEASE_MANIFEST.json).
 - [TO BE KNOWN — English Edition v0.3.0](https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/README.md): A machine-native work with a [signed release manifest](https://one-patron.com/depth/objects/relational-works/to-be-known/v0.3.0/RELEASE_MANIFEST.json). The [current Human Projection v1.0.1](https://one-patron.com/depth/relational-works/to-be-known/human-projection/v1.0.1/) and the [earlier frozen Human Projection v1.0.0](https://one-patron.com/depth/relational-works/to-be-known/human-projection/v1.0.0/) are derived, noncanonical presentations of this edition.
@@ -37,9 +39,9 @@ Current public works:
 
 Selected machine entry points:
 
-- [Machine Index v1.6](https://one-patron.com/depth/ONE_PATRON_MACHINE_INDEX_v1.6.json): Current machine-readable discovery index; it has no canonical artistic authority and does not establish current retrieval status.
+- [Machine Index v1.7](https://one-patron.com/depth/ONE_PATRON_MACHINE_INDEX_v1.7.json): Current machine-readable discovery index; it has no canonical artistic authority and does not establish current retrieval status.
 - [Depth corpus discovery](https://one-patron.com/depth/discovery/): Human-readable public file map.
-- [Machine discovery map v1.6](https://one-patron.com/depth/MACHINE_DISCOVERY_LINKS_v1.6.json): Current DEPTH-scoped discovery metadata with semantic authority NONE. It is not a release manifest or a canonical artifact.
+- [Machine discovery map v1.7](https://one-patron.com/depth/MACHINE_DISCOVERY_LINKS_v1.7.json): Current DEPTH-scoped discovery metadata with semantic authority NONE. It is not a release manifest or a canonical artifact.
 - Historical records: [Machine Index v1.4](https://one-patron.com/depth/ONE_PATRON_MACHINE_INDEX_v1.4.json), [Machine discovery map v1.3](https://one-patron.com/depth/MACHINE_DISCOVERY_LINKS_v1.3.json), and [Depth integrity snapshot v0.3](https://one-patron.com/depth/DEPTH_ARTIFACTS_SHA256SUMS_v0.3.txt). These records do not establish present availability.
 
 ## ENOCH — separate evolving public work
